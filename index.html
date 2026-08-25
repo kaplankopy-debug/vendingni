@@ -39,7 +39,6 @@
 
   <style>
     :root {
-      /* Exact Original Brand Colors */
       --wp--preset--color--vivid-green-cyan: #3ad06e;
       --wp--preset--color--dark-gray: #28303d;
       --wp--preset--color--white: #ffffff;
@@ -67,10 +66,8 @@
     .nav-links { display: flex; gap: 1.25rem; list-style: none; align-items: center; }
     .nav-links a { font-weight: 600; color: var(--dark); font-size: 0.95rem; }
 
-    /* Mobile Hamburger Menu Toggle Button */
     .menu-toggle { display: none; background: none; border: none; font-size: 1.75rem; color: var(--dark); cursor: pointer; padding: 0.25rem 0.5rem; }
 
-    /* Buttons: Green Background + Pure White Text */
     .btn { display: inline-flex; align-items: center; justify-content: center; background-color: var(--primary) !important; color: var(--text-on-primary) !important; font-weight: 700; padding: 0.85rem 1.75rem; border-radius: var(--radius); min-height: 48px; border: none; cursor: pointer; text-align: center; font-size: 1rem; text-decoration: none; }
     .btn:hover { opacity: 0.92; }
 
@@ -85,7 +82,7 @@
     .benefits-list li { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.85rem; font-size: 0.98rem; }
     .checkmark { color: var(--primary); font-weight: bold; font-size: 1.2rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
 
-    /* High-Visibility Client Logos Banner with Solid Card Backgrounds */
+    /* Client Logos Banner with Solid Card Backgrounds */
     .client-trust-section { padding: 3rem 1.25rem; background: #ffffff; border-bottom: 1px solid var(--border); text-align: center; }
     .trust-title { font-size: 0.9rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--dark); font-weight: 800; margin-bottom: 2rem; }
     
@@ -96,13 +93,12 @@
     .client-logo-card:hover { border-color: var(--primary); }
     .client-logo-card img { max-height: 50px; width: auto; object-fit: contain; }
 
-    /* Real-World Gallery (Clean Images Only) */
+    /* Real-World Gallery */
     .onsite-section { padding: 2.5rem 1.25rem; background: var(--light-bg); border-bottom: 1px solid var(--border); }
-    
     .gallery-carousel { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: 0.5rem; max-width: 1200px; margin: 0 auto; scrollbar-width: none; }
     .gallery-carousel::-webkit-scrollbar { display: none; }
-    .gallery-card { flex: 0 0 280px; scroll-snap-align: start; border-radius: var(--radius); overflow: hidden; background: #fff; border: 1px solid var(--border); }
-    .gallery-card img { width: 100%; height: 280px; object-fit: cover; display: block; }
+    .gallery-card { flex: 0 0 280px; height: 280px; scroll-snap-align: start; border-radius: var(--radius); overflow: hidden; background: #ffffff; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; padding: 0.5rem; }
+    .gallery-card img { width: 100%; height: 100%; object-fit: cover; border-radius: 4px; display: block; }
 
     /* Distribution Partner Banner */
     .partner-section { max-width: 1200px; margin: 3rem auto; padding: 2rem 1.25rem; background: #fff; border: 1px solid var(--border); border-radius: var(--radius); display: flex; align-items: center; gap: 2rem; }
@@ -123,7 +119,7 @@
     .card h3 { font-size: 1.1rem; margin-bottom: 0.3rem; color: var(--dark); }
     .card p { font-size: 0.9rem; color: var(--text-muted); }
     
-    /* SEO Target Sectors & Blog Links Cloud */
+    /* SEO Target Sectors */
     .sectors { padding: 3rem 1.25rem; max-width: 1000px; margin: 0 auto; text-align: center; }
     .sector-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.65rem; list-style: none; margin-top: 1.25rem; }
     .sector-tags a { display: inline-block; background: var(--light-bg); padding: 0.5rem 1rem; border-radius: 20px; color: var(--text); border: 1px solid var(--border); font-size: 0.88rem; font-weight: 500; }
@@ -136,10 +132,8 @@
     .mobile-sticky-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #fff; padding: 0.75rem 1rem; border-top: 1px solid var(--border); box-shadow: 0 -4px 12px rgba(0,0,0,0.12); z-index: 1000; }
     .mobile-sticky-cta .btn { width: 100%; }
 
-    /* Responsive Mobile Styles & Collapsible Nav Logic */
     @media (max-width: 768px) {
       .menu-toggle { display: block; }
-      
       .nav-links {
         display: none;
         flex-direction: column;
@@ -154,15 +148,9 @@
         gap: 1rem;
         align-items: flex-start;
       }
-
-      .nav-links.active {
-        display: flex;
-      }
-
+      .nav-links.active { display: flex; }
       .nav-links li { width: 100%; }
       .nav-links a { display: block; font-size: 1.05rem; padding: 0.4rem 0; border-bottom: 1px solid #f1f5f9; }
-      .nav-links .btn { margin-top: 0.5rem; text-align: center; }
-
       .hero-container { grid-template-columns: 1fr; text-align: center; }
       .hero h1 { font-size: 1.85rem; }
       .benefits-list li { text-align: left; }
@@ -176,7 +164,7 @@
 </head>
 <body>
 
-  <!-- Header with Collapsible Mobile Navigation -->
+  <!-- Header -->
   <header>
     <div class="header-container">
       <a href="https://vendingni.com/" class="logo">
@@ -222,7 +210,7 @@
       </div>
     </section>
 
-    <!-- Client Logos Section with Solid Containers -->
+    <!-- Client Logos Section with Fixed Solid Cards -->
     <section class="client-trust-section">
       <p class="trust-title">Clients We've Worked With Include:</p>
       <div class="client-scroll-container">
@@ -239,15 +227,15 @@
           <img src="https://vendingni.com/wp-content/uploads/2024/02/titanic-suites.png" alt="Titanic Suites" loading="eager">
         </div>
         <div class="client-logo-card">
-          <img src="https://vendingni.com/wp-content/uploads/2024/02/ards-and-north-down.png" alt="Ards and North Down Borough Council" loading="eager">
+          <img src="https://vendingni.com/wp-content/uploads/2024/02/nie-networks.png" alt="Northern Ireland Electricity Networks" loading="eager">
         </div>
         <div class="client-logo-card">
-          <img src="https://vendingni.com/wp-content/uploads/2024/02/nie-networks.png" alt="Northern Ireland Electricity Networks" loading="eager">
+          <img src="https://vendingni.com/wp-content/uploads/2024/02/ards-and-north-down.png" alt="Ards and North Down Borough Council" loading="eager">
         </div>
       </div>
     </section>
 
-    <!-- Real World Site Images Carousel -->
+    <!-- Real World Gallery -->
     <section class="onsite-section">
       <div class="gallery-carousel">
         <div class="gallery-card">
@@ -281,7 +269,7 @@
       </section>
     </div>
 
-    <!-- Stocked Product Brands -->
+    <!-- Stocked Brands -->
     <section class="brands-section">
       <p class="trust-title">Stocking Favourite Brands Staff & Visitors Love</p>
       <div class="brand-grid">
@@ -293,9 +281,9 @@
       </div>
     </section>
 
-    <!-- Service Features Grid -->
+    <!-- Features -->
     <section class="features">
-      <h2 class="section-title" style="text-align: center; font-size: 1.85rem; color: var(--dark); font-weight: 800; margin-bottom: 1.75rem;">Complete Managed Service Breakdown</h2>
+      <h2 style="text-align: center; font-size: 1.85rem; color: var(--dark); font-weight: 800; margin-bottom: 1.75rem;">Complete Managed Service Breakdown</h2>
       <div class="grid-2x2">
         <div class="card">
           <img src="https://vendingni.com/wp-content/uploads/2023/02/download-3.png" class="card-icon" alt="Custom Selection Icon" loading="lazy">
@@ -328,7 +316,7 @@
       </div>
     </section>
 
-    <!-- Sector Links & Blog Architecture for SEO -->
+    <!-- Sectors -->
     <section class="sectors">
       <p class="trust-title">Sectors We Serve & Latest News</p>
       <div class="sector-tags">
@@ -363,16 +351,13 @@
     <p style="font-size: 0.85rem; color: #64748b; margin-top: 2rem;">© 2026 VendingNI. All rights reserved.</p>
   </footer>
 
-  <!-- Fixed Mobile Action CTA Button -->
   <div class="mobile-sticky-cta">
     <a href="mailto:info@vendingni.com" class="btn">Request Free Vending Machine</a>
   </div>
 
   <script>
-    // Collapsible Mobile Menu Script
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
-
     menuToggle.addEventListener('click', () => {
       navLinks.classList.toggle('active');
     });
