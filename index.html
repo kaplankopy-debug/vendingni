@@ -94,14 +94,22 @@
     .btn { display: inline-flex; align-items: center; justify-content: center; background-color: var(--primary) !important; color: var(--text-on-primary) !important; font-weight: 700; padding: 0.85rem 1.75rem; border-radius: var(--radius); min-height: 48px; border: none; cursor: pointer; text-align: center; font-size: 1rem; text-decoration: none; }
     .btn:hover { opacity: 0.92; }
 
-    /* High-Visibility Client Logos Banner */
-    .client-trust-section { padding: 2.25rem 1.25rem; background: #ffffff; border-bottom: 1px solid var(--border); text-align: center; }
+    /* Compact Two-Row Client Logos Section */
+    .client-trust-section { padding: 2rem 1.25rem; background: #ffffff; border-bottom: 1px solid var(--border); text-align: center; }
     .trust-title { font-size: 0.85rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 1.25rem; }
     
-    .client-scroll-container { display: flex; align-items: center; justify-content: center; gap: 2.5rem; overflow-x: auto; padding-bottom: 0.5rem; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
-    .client-scroll-container::-webkit-scrollbar { display: none; }
-    .client-logo-item { flex: 0 0 auto; scroll-snap-align: center; display: flex; align-items: center; justify-content: center; }
-    .client-logo-item img { max-height: 68px; width: auto; object-fit: contain; }
+    .client-grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem 1.5rem;
+      max-width: 850px;
+      margin: 0 auto;
+      align-items: center;
+      justify-items: center;
+    }
+    .client-logo-item { display: flex; align-items: center; justify-content: center; width: 100%; }
+    .client-logo-item img { max-height: 42px; width: auto; object-fit: contain; opacity: 0.85; transition: opacity 0.2s ease; }
+    .client-logo-item img:hover { opacity: 1; }
 
     /* Hero Section */
     .hero { background: var(--light-bg); padding: 3rem 1.25rem; }
@@ -181,13 +189,20 @@
       .nav-links a { display: block; font-size: 1.05rem; padding: 0.4rem 0; border-bottom: 1px solid #f1f5f9; }
       .nav-links .btn { margin-top: 0.5rem; text-align: center; }
 
+      .client-grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem 0.75rem;
+      }
+      .client-logo-item img {
+        max-height: 32px;
+      }
+
       .hero-container { grid-template-columns: 1fr; text-align: center; }
       .hero h1 { font-size: 1.85rem; }
       .benefits-list li { text-align: left; }
       .partner-section { flex-direction: column; text-align: center; padding: 1.5rem; }
       .mobile-sticky-cta { display: block; }
       body { padding-bottom: 72px; }
-      .client-scroll-container { justify-content: flex-start; }
       .gallery-card { flex: 0 0 80%; }
     }
   </style>
@@ -219,10 +234,10 @@
   <!-- Aesthetic Green Divider Banner -->
   <div class="section-divider" aria-hidden="true"></div>
 
-  <!-- Client Logos Section -->
+  <!-- Client Logos Section (Two Rows Grid) -->
   <section class="client-trust-section">
     <p class="trust-title">Clients We've Worked With Include</p>
-    <div class="client-scroll-container">
+    <div class="client-grid-container">
       <div class="client-logo-item">
         <img src="nie1.jpg" alt="Northern Ireland Electricity Networks" loading="eager">
       </div>
@@ -233,7 +248,7 @@
         <img src="ards.jpg" alt="Ards and North Down Borough Council" loading="eager">
       </div>
       <div class="client-logo-item">
-        <img src="nifa.jpg" alt="NIFA" loading="eager" style="max-height: 80px;">
+        <img src="nifa.jpg" alt="NIFA" loading="eager">
       </div>
       <div class="client-logo-item">
         <img src="titanic.jpg" alt="Titanic Suites" loading="eager">
