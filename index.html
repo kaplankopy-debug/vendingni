@@ -85,16 +85,18 @@
     .benefits-list li { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.85rem; font-size: 0.98rem; }
     .checkmark { color: var(--primary); font-weight: bold; font-size: 1.2rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
 
-    /* High-Visibility Client Logos Banner */
-    .client-trust-section { padding: 2.5rem 1.25rem; background: #ffffff; border-bottom: 1px solid var(--border); text-align: center; }
-    .trust-title { font-size: 0.9rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--dark); font-weight: 800; margin-bottom: 1.5rem; }
+    /* High-Visibility Client Logos Banner with Solid Card Backgrounds */
+    .client-trust-section { padding: 3rem 1.25rem; background: #ffffff; border-bottom: 1px solid var(--border); text-align: center; }
+    .trust-title { font-size: 0.9rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--dark); font-weight: 800; margin-bottom: 2rem; }
     
-    .client-scroll-container { display: flex; align-items: center; justify-content: center; gap: 2.5rem; overflow-x: auto; padding-bottom: 0.75rem; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    .client-scroll-container { display: flex; align-items: center; justify-content: center; gap: 1.5rem; overflow-x: auto; padding-bottom: 0.75rem; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; max-width: 1200px; margin: 0 auto; }
     .client-scroll-container::-webkit-scrollbar { display: none; }
-    .client-logo-item { flex: 0 0 auto; scroll-snap-align: center; display: flex; align-items: center; justify-content: center; }
-    .client-logo-item img { max-height: 60px; width: auto; object-fit: contain; }
+    
+    .client-logo-card { flex: 0 0 180px; height: 90px; background: #f8fafc; border: 1px solid var(--border); border-radius: var(--radius); scroll-snap-align: center; display: flex; align-items: center; justify-content: center; padding: 0.75rem; transition: border-color 0.2s; }
+    .client-logo-card:hover { border-color: var(--primary); }
+    .client-logo-card img { max-height: 50px; width: auto; object-fit: contain; }
 
-    /* Real-World Gallery (Clean Images Only, Heading & Subtext Removed) */
+    /* Real-World Gallery (Clean Images Only) */
     .onsite-section { padding: 2.5rem 1.25rem; background: var(--light-bg); border-bottom: 1px solid var(--border); }
     
     .gallery-carousel { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: 0.5rem; max-width: 1200px; margin: 0 auto; scrollbar-width: none; }
@@ -220,32 +222,32 @@
       </div>
     </section>
 
-    <!-- Client Logos Section -->
+    <!-- Client Logos Section with Solid Containers -->
     <section class="client-trust-section">
       <p class="trust-title">Clients We've Worked With Include:</p>
       <div class="client-scroll-container">
-        <div class="client-logo-item">
+        <div class="client-logo-card">
           <img src="https://vendingni.com/wp-content/uploads/2024/02/glasgiven-contracts.png" alt="Glasgiven Contracts Ltd" loading="eager">
         </div>
-        <div class="client-logo-item">
+        <div class="client-logo-card">
           <img src="https://vendingni.com/wp-content/uploads/2024/02/staff-nursing.png" alt="Staff Nursing" loading="eager">
         </div>
-        <div class="client-logo-item">
+        <div class="client-logo-card">
           <img src="https://vendingni.com/wp-content/uploads/2024/02/zoo.png" alt="Belfast Zoo" loading="eager">
         </div>
-        <div class="client-logo-item">
+        <div class="client-logo-card">
           <img src="https://vendingni.com/wp-content/uploads/2024/02/titanic-suites.png" alt="Titanic Suites" loading="eager">
         </div>
-        <div class="client-logo-item">
+        <div class="client-logo-card">
           <img src="https://vendingni.com/wp-content/uploads/2024/02/ards-and-north-down.png" alt="Ards and North Down Borough Council" loading="eager">
         </div>
-        <div class="client-logo-item">
+        <div class="client-logo-card">
           <img src="https://vendingni.com/wp-content/uploads/2024/02/nie-networks.png" alt="Northern Ireland Electricity Networks" loading="eager">
         </div>
       </div>
     </section>
 
-    <!-- Real World Site Images Carousel (No Heading, No Paragraph Subtext) -->
+    <!-- Real World Site Images Carousel -->
     <section class="onsite-section">
       <div class="gallery-carousel">
         <div class="gallery-card">
