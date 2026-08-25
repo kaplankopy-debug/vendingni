@@ -43,13 +43,9 @@
     .btn { display: inline-flex; align-items: center; justify-content: center; background-color: var(--primary) !important; color: var(--white) !important; font-weight: 700; padding: 0.85rem 1.75rem; border-radius: var(--radius); min-height: 48px; border: none; cursor: pointer; text-align: center; font-size: 1rem; text-decoration: none; }
     .btn:hover { opacity: 0.92; }
 
-    /* Slim Light Green Accent Banner */
-    .sub-header-banner { background-color: var(--primary); color: #ffffff; padding: 0.5rem 1.25rem; text-align: center; font-size: 0.9rem; font-weight: 600; letter-spacing: 0.3px; display: flex; align-items: center; justify-content: center; gap: 1.5rem; }
-    .sub-header-banner a { color: #ffffff; text-decoration: underline; font-weight: 700; }
-
     /* Hero Section */
     .hero { background: var(--light-bg); padding: 3rem 1.25rem; }
-    .hero-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 2.5rem; align-items: center; }
+    .hero-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center; }
     .hero h1 { font-size: 2.25rem; font-weight: 900; color: var(--dark); line-height: 1.2; margin-bottom: 1rem; }
     .hero h1 span { color: var(--primary); }
     .hero p { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem; }
@@ -58,7 +54,7 @@
     .benefits-list li { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.85rem; font-size: 0.98rem; }
     .checkmark { color: var(--primary); font-weight: bold; font-size: 1.2rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
 
-    /* Client Logos Banner */
+    /* Client Logos Banner with Solid Cards & Clean Typography Fallbacks */
     .client-trust-section { padding: 3rem 1.25rem; background: #ffffff; border-bottom: 1px solid var(--border); text-align: center; }
     .trust-title { font-size: 0.9rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--dark); font-weight: 800; margin-bottom: 2rem; }
     
@@ -141,7 +137,6 @@
       body { padding-bottom: 72px; }
       .client-scroll-container { justify-content: flex-start; }
       .gallery-card { flex: 0 0 80%; }
-      .sub-header-banner { font-size: 0.8rem; padding: 0.4rem 0.75rem; }
     }
   </style>
 </head>
@@ -169,12 +164,6 @@
     </div>
   </header>
 
-  <!-- Slim Light Green Accent Banner -->
-  <div class="sub-header-banner">
-    <span>✨ Fully Managed, 100% Free Vending Solutions Across Northern Ireland</span>
-    <a href="mailto:info@vendingni.com">Check Eligibility &rarr;</a>
-  </div>
-
   <main>
     <!-- Hero Section -->
     <section class="hero">
@@ -194,14 +183,18 @@
           <a href="mailto:info@vendingni.com" class="btn">Request Your Free Vending Machine</a>
         </div>
         <div>
-          <img src="https://vendingni.com/wp-content/uploads/2024/10/vending-machine-hero.png" alt="State-of-the-art Vending Machine in Northern Ireland" style="width:100%; height:auto; display:block; border-radius:12px; filter: drop-shadow(0 15px 25px rgba(0,0,0,0.1));">
+          <div style="background:#fff; border:2px solid var(--border); border-radius:12px; padding:2rem; text-align:center; box-shadow:0 10px 25px rgba(0,0,0,0.05);">
+            <div style="font-size:4rem; margin-bottom:1rem;">🥤🍫</div>
+            <h3 style="color:var(--dark); font-size:1.25rem; margin-bottom:0.5rem;">State-of-the-Art Machines</h3>
+            <p style="color:var(--text-muted); font-size:0.9rem;">Equipped with touchless payment & energy-efficient refrigeration.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Client Logos Section -->
+    <!-- Client Logos Section with Clean Presentation Cards -->
     <section class="client-trust-section">
-      <p class="trust-title">Clients We'Worked With Include:</p>
+      <p class="trust-title">Clients We've Worked With Include:</p>
       <div class="client-scroll-container">
         <div class="client-logo-card">
           GLASGIVEN
