@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Free Vending Machines Northern Ireland | Fully Managed | VendingNI</title>
-  <meta name="description" content="Get a free, fully managed vending machine for your office, gym, warehouse, or venue in Northern Ireland. Zero cost, contactless payments, restocking & maintenance included.">
+  <meta name="description" content="Get a free, fully managed vending machine for your office, gym, warehouse, or venue in Northern Ireland. Zero cost, cashless payments, restocking & maintenance included.">
   <link rel="canonical" href="https://vendingni.com/">
   
   <!-- Open Graph / Social Sharing -->
@@ -14,7 +14,7 @@
   <meta property="og:description" content="Zero investment required. We supply, stock, clean, and maintain top-tier snack and drink vending machines at zero cost to your organisation.">
   <meta property="og:url" content="https://vendingni.com/">
 
-  <!-- Local Business Structured Data for Search Engines -->
+  <!-- Local Business Structured Data (JSON-LD) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -41,10 +41,11 @@
 
   <style>
     :root {
-      --primary: #00b894;
-      --primary-hover: #009677;
+      --primary: #3ad06e; /* Original VendingNI Brand Green */
+      --primary-hover: #2eb85c;
+      --text-on-primary: #ffffff;
       --dark: #1b1d21;
-      --light-bg: #f8f9fa;
+      --light-bg: #f4f9f6;
       --text: #2d3748;
       --text-muted: #64748b;
       --border: #e2e8f0;
@@ -59,57 +60,56 @@
     /* Header & Navigation */
     header { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
     .header-container { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1.25rem; }
-    .logo img { height: 46px; width: auto; }
+    .logo img { height: 48px; width: auto; }
     .nav-links { display: flex; gap: 1.25rem; list-style: none; align-items: center; }
     .nav-links a { font-weight: 600; color: var(--dark); font-size: 0.95rem; }
     
+    /* Brand Buttons (Exact Green + White Text) */
+    .btn { display: inline-flex; align-items: center; justify-content: center; background: var(--primary); color: var(--text-on-primary) !important; font-weight: 700; padding: 0.85rem 1.75rem; border-radius: var(--radius); min-height: 48px; border: none; cursor: pointer; text-align: center; font-size: 1rem; }
+    .btn:hover { background: var(--primary-hover); }
+
     /* Hero Section */
     .hero { background: var(--light-bg); padding: 3rem 1.25rem; }
     .hero-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center; }
-    .hero h1 { font-size: 2.25rem; font-weight: 900; color: var(--primary); line-height: 1.2; margin-bottom: 1rem; }
+    .hero h1 { font-size: 2.25rem; font-weight: 900; color: var(--dark); line-height: 1.2; margin-bottom: 1rem; }
+    .hero h1 span { color: var(--primary); }
     .hero p { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem; }
-    .hero-img-wrap { text-align: center; }
-    .hero-img-wrap img { max-height: 520px; width: auto; margin: 0 auto; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1)); }
-
+    
     /* Bullet Benefits */
     .benefits-list { list-style: none; margin-bottom: 2rem; }
     .benefits-list li { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.85rem; font-size: 0.98rem; }
-    .checkmark { color: var(--primary); font-weight: bold; font-size: 1.1rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
-    
-    /* Call to Action Buttons */
-    .btn { display: inline-flex; align-items: center; justify-content: center; background: var(--primary); color: #fff; font-weight: 700; padding: 0.85rem 1.75rem; border-radius: var(--radius); min-height: 48px; border: none; cursor: pointer; text-align: center; }
-    .btn:hover { background: var(--primary-hover); color: #fff; }
+    .checkmark { color: var(--primary); font-weight: bold; font-size: 1.2rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
 
-    /* Trust & Client Logos Banner */
+    /* Top Priority Client Logos Banner (Belfast Zoo First) */
     .client-trust-section { padding: 2.5rem 1.25rem; background: #fff; border-bottom: 1px solid var(--border); text-align: center; }
-    .section-subtitle { font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 1.5rem; }
-    .client-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; max-width: 1100px; margin: 0 auto; }
-    .client-grid img { height: 42px; width: auto; object-fit: contain; filter: grayscale(30%); opacity: 0.85; transition: all 0.2s; }
-    .client-grid img:hover { filter: grayscale(0%); opacity: 1; }
+    .trust-title { font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 1.5rem; }
+    .client-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2.5rem; max-width: 1100px; margin: 0 auto; }
+    .client-grid img { max-height: 55px; width: auto; object-fit: contain; }
+    .client-grid .primary-client { max-height: 65px; font-weight: bold; }
 
-    /* Machine Equipment Showcase */
-    .equipment-section { padding: 3.5rem 1.25rem; max-width: 1200px; margin: 0 auto; }
+    /* On-Site Real Machine Gallery Showcase */
+    .onsite-section { padding: 3.5rem 1.25rem; background: var(--light-bg); border-bottom: 1px solid var(--border); }
     .section-title { text-align: center; font-size: 1.85rem; color: var(--dark); font-weight: 800; margin-bottom: 0.5rem; }
     .section-desc { text-align: center; color: var(--text-muted); max-width: 650px; margin: 0 auto 2.5rem; }
-    .machine-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.75rem; }
-    .machine-card { border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; background: #fff; text-align: center; display: flex; flex-direction: column; justify-content: space-between; }
-    .machine-card img { max-height: 280px; width: auto; margin: 0 auto 1.25rem; object-fit: contain; }
-    .machine-card h3 { font-size: 1.2rem; color: var(--dark); margin-bottom: 0.5rem; }
-    .machine-card p { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .onsite-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1200px; margin: 0 auto; }
+    .onsite-card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.04); }
+    .onsite-card img { width: 100%; height: 260px; object-fit: cover; }
+    .onsite-card-body { padding: 1.25rem; }
+    .onsite-card-body h3 { font-size: 1.1rem; color: var(--dark); margin-bottom: 0.3rem; }
+    .onsite-card-body p { font-size: 0.88rem; color: var(--text-muted); }
 
-    /* Partner Banner */
-    .partner-section { max-width: 1200px; margin: 2rem auto; padding: 2rem 1.25rem; background: var(--light-bg); border-radius: var(--radius); display: flex; align-items: center; gap: 2rem; }
-    .partner-logo { flex-shrink: 0; }
+    /* Official Distribution Partner Banner */
+    .partner-section { max-width: 1200px; margin: 3rem auto; padding: 2rem 1.25rem; background: #fff; border: 1px solid var(--border); border-radius: var(--radius); display: flex; align-items: center; gap: 2rem; }
     .partner-logo img { width: 130px; height: auto; }
     .partner-text h2 { font-size: 1.3rem; color: var(--dark); margin-bottom: 0.5rem; }
     .partner-text p { font-size: 0.95rem; color: var(--text-muted); }
-    
+
     /* Product Brands Section */
     .brands-section { padding: 3rem 1.25rem; background: #fff; border-top: 1px solid var(--border); text-align: center; }
-    .brand-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 1.5rem; align-items: center; max-width: 1000px; margin: 1.5rem auto 0; }
-    .brand-grid img { max-height: 40px; width: auto; margin: 0 auto; filter: grayscale(15%); opacity: 0.9; }
+    .brand-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; max-width: 1000px; margin: 1.5rem auto 0; }
+    .brand-grid img { max-height: 42px; width: auto; }
 
-    /* Features Grid */
+    /* Service Features Grid */
     .features { padding: 3.5rem 1.25rem; max-width: 1200px; margin: 0 auto; }
     .grid-2x2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
     .card { border: 1px solid var(--border); border-radius: var(--radius); padding: 1.75rem; background: #fff; display: flex; gap: 1rem; align-items: flex-start; }
@@ -117,20 +117,20 @@
     .card h3 { font-size: 1.1rem; margin-bottom: 0.3rem; color: var(--dark); }
     .card p { font-size: 0.9rem; color: var(--text-muted); }
     
-    /* Sectors Cloud */
+    /* Target Sectors SEO Tags */
     .sectors { padding: 3rem 1.25rem; max-width: 1000px; margin: 0 auto; text-align: center; }
     .sector-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.65rem; list-style: none; margin-top: 1.25rem; }
     .sector-tags a { display: inline-block; background: var(--light-bg); padding: 0.5rem 1rem; border-radius: 20px; color: var(--text); border: 1px solid var(--border); font-size: 0.88rem; font-weight: 500; }
     .sector-tags a:hover { border-color: var(--primary); color: var(--primary); }
 
-    /* Footer & Mobile Sticky Bar */
+    /* Footer & Fixed Mobile CTA Bar */
     footer { background: var(--dark); color: #fff; padding: 3.5rem 1.25rem 2rem; text-align: center; }
     footer a { color: #cbd5e1; }
     .footer-links { display: flex; justify-content: center; gap: 1.5rem; margin: 1.75rem 0; list-style: none; flex-wrap: wrap; font-size: 0.9rem; }
     .mobile-sticky-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #fff; padding: 0.75rem 1rem; border-top: 1px solid var(--border); box-shadow: 0 -4px 12px rgba(0,0,0,0.12); z-index: 1000; }
-    .mobile-sticky-cta .btn { width: 100%; }
+    .mobile-sticky-cta .btn { width: 100%; background: var(--primary); color: #fff !important; }
 
-    /* Responsive Adjustments */
+    /* Responsive adjustments */
     @media (max-width: 768px) {
       .hero-container { grid-template-columns: 1fr; text-align: center; }
       .hero h1 { font-size: 1.85rem; }
@@ -167,7 +167,7 @@
     <section class="hero">
       <div class="hero-container">
         <div>
-          <h1>Get A Free Vending Machine For Your Organisation</h1>
+          <h1>Get A Free Vending Machine For Your <span>Organisation</span></h1>
           <p>Full-service snack & beverage vending solutions across Northern Ireland. Zero equipment cost, zero installation fee, and zero maintenance hassle.</p>
           
           <ul class="benefits-list">
@@ -180,51 +180,54 @@
 
           <a href="mailto:info@vendingni.com" class="btn">Request Your Free Vending Machine</a>
         </div>
-        <div class="hero-img-wrap">
-          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" width="550" height="637" alt="Modern Glass Front Vending Machine" loading="eager">
+        <div>
+          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" width="550" height="637" alt="VendingNI Modern Glass Front Machine" loading="eager">
         </div>
       </div>
     </section>
 
-    <!-- Client & Location Trust Badges -->
+    <!-- First Visible Client Logos (Belfast Zoo Positioned First) -->
     <section class="client-trust-section">
-      <p class="section-subtitle">Trusted By Workplaces & Facilities Across Northern Ireland</p>
+      <p class="trust-title">Trusted By Leading Organisations Across Northern Ireland</p>
       <div class="client-grid">
-        <img src="/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" alt="Trusted Partner 1" loading="lazy">
-        <img src="/wp-content/uploads/2023/02/download-3.png" alt="Trusted Partner 2" loading="lazy">
-        <img src="/wp-content/uploads/2023/02/download-2.png" alt="Trusted Partner 3" loading="lazy">
-        <img src="/wp-content/uploads/2023/02/download-1.png" alt="Trusted Partner 4" loading="lazy">
+        <img src="/wp-content/uploads/2024/02/zoo.png" alt="Belfast Zoo" class="primary-client" loading="eager">
+        <img src="/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" alt="VendingNI Client Partner" loading="lazy">
+        <img src="/wp-content/uploads/2023/02/download-3.png" alt="Client Partner Logo" loading="lazy">
+        <img src="/wp-content/uploads/2023/02/download-2.png" alt="Client Partner Logo" loading="lazy">
       </div>
     </section>
 
-    <!-- Equipment & Vending Machine Options Showcase -->
-    <section class="equipment-section">
-      <h2 class="section-title">Our Premium Vending Machine Fleet</h2>
-      <p class="section-desc">We install modern, energy-efficient machines equipped with real-time stock monitoring and contactless payment terminals.</p>
+    <!-- Real Site Machine Photos (Belfast Zoo & Client Sites) -->
+    <section class="onsite-section">
+      <h2 class="section-title">Our Machines In Action On Site</h2>
+      <p class="section-desc">See our high-capacity, modern vending setups installed at top venues and facilities across Northern Ireland.</p>
       
-      <div class="machine-grid">
-        <div class="machine-card">
-          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" alt="Glass Front Combination Vending Machine" loading="lazy">
-          <h3>Combination Vendor</h3>
-          <p>Dual temperature control providing chilled soft drinks, confectionery, and savory snacks in one unit.</p>
-          <a href="mailto:info@vendingni.com" class="btn" style="width: 100%;">Inquire Now</a>
+      <div class="onsite-grid">
+        <div class="onsite-card">
+          <img src="/wp-content/uploads/2024/02/zoo1-1.png" alt="Vending Machine Installed at Belfast Zoo" loading="lazy">
+          <div class="onsite-card-body">
+            <h3>Belfast Zoo Installation</h3>
+            <p>High-volume visitor setup equipped with contactless payment readers.</p>
+          </div>
         </div>
-        <div class="machine-card">
-          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" alt="Cold Drink Vending Machine" loading="lazy">
-          <h3>Cold Beverage Vendor</h3>
-          <p>High-capacity cold drink unit dispensing bottled water, sports drinks, energy drinks, and sodas.</p>
-          <a href="mailto:info@vendingni.com" class="btn" style="width: 100%;">Inquire Now</a>
+        <div class="onsite-card">
+          <img src="/wp-content/uploads/2024/02/zoo2.png" alt="Vending Machine On Location" loading="lazy">
+          <div class="onsite-card-body">
+            <h3>Public Venue & Leisure Placement</h3>
+            <p>Chilled soft drinks and snack options tailored for high daily footfall.</p>
+          </div>
         </div>
-        <div class="machine-card">
-          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" alt="Snack Vending Machine" loading="lazy">
-          <h3>Snack & Confectionery Vendor</h3>
-          <p>Glass-front snack vendor featuring adjustable tray configurations for crisps, protein bars, and sweets.</p>
-          <a href="mailto:info@vendingni.com" class="btn" style="width: 100%;">Inquire Now</a>
+        <div class="onsite-card">
+          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" alt="Commercial Workplace Vending Machine" loading="lazy">
+          <div class="onsite-card-body">
+            <h3>Workplace & Office Deployment</h3>
+            <p>Glass-front combination vendor supplying snacks and drinks 24/7.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Official Distribution Partner Section -->
+    <!-- Official Distribution Partner Banner -->
     <div style="padding: 0 1.25rem;">
       <section class="partner-section">
         <div class="partner-logo">
@@ -237,9 +240,9 @@
       </section>
     </div>
 
-    <!-- Product & Brand Logos -->
+    <!-- Product Brands Section -->
     <section class="brands-section">
-      <p class="section-subtitle">Stocking Top Brands Your Staff & Visitors Love</p>
+      <p class="trust-title">Stocking Top Brands Your Staff & Visitors Love</p>
       <div class="brand-grid">
         <img src="/wp-content/uploads/2023/02/coca-cola-logopedia-fandom-powered-wikia-13-1024x345.png" alt="Coca-Cola" loading="lazy">
         <img src="/wp-content/uploads/2023/01/Red-Bull-logo-1024x576.png" alt="Red Bull" loading="lazy">
@@ -249,7 +252,7 @@
       </div>
     </section>
 
-    <!-- Service Features -->
+    <!-- Service Features Grid -->
     <section class="features">
       <h2 class="section-title">Complete Managed Service Breakdown</h2>
       <div class="grid-2x2">
@@ -286,7 +289,7 @@
 
     <!-- Target Sectors SEO Links -->
     <section class="sectors">
-      <p class="section-subtitle">Sectors We Serve Across Northern Ireland</p>
+      <p class="trust-title">Sectors We Serve Across Northern Ireland</p>
       <div class="sector-tags">
         <a href="/vending-machines-for-an-office/">Offices</a>
         <a href="/vending-machine-for-gym/">Gyms</a>
