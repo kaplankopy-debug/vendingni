@@ -1,329 +1,230 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Free Vending Machines Northern Ireland | Fully Managed | VendingNI</title>
-  <meta name="description" content="Get a free, fully managed vending machine for your office, gym, warehouse, or venue in Northern Ireland. Zero cost, cashless payments, restocking & maintenance included.">
-  <link rel="canonical" href="https://vendingni.com/">
-  
-  <!-- Open Graph / Social Sharing -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="VendingNI">
-  <meta property="og:title" content="Free Managed Vending Machines in Northern Ireland | VendingNI">
-  <meta property="og:description" content="Zero investment required. We supply, stock, clean, and maintain top-tier snack and drink vending machines at zero cost to your organisation.">
-  <meta property="og:url" content="https://vendingni.com/">
-
-  <!-- Local Business Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "VendingNI",
-    "url": "https://vendingni.com",
-    "email": "info@vendingni.com",
-    "description": "Provider of free, fully managed snack and drink vending machine services across Northern Ireland.",
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "Northern Ireland"
-    },
-    "makesOffer": {
-      "@type": "Offer",
-      "itemOffered": {
-        "@type": "Service",
-        "name": "Fully Managed Vending Machine Installation and Service"
-      },
-      "price": "0",
-      "priceCurrency": "GBP"
-    }
-  }
-  </script>
-
-  <style>
-    :root {
-      --primary: #3ad06e; /* Original VendingNI Brand Green */
-      --primary-hover: #2eb85c;
-      --text-on-primary: #ffffff;
-      --dark: #1b1d21;
-      --light-bg: #f4f9f6;
-      --text: #2d3748;
-      --text-muted: #64748b;
-      --border: #e2e8f0;
-      --radius: 8px;
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif; color: var(--text); line-height: 1.6; background: #fff; }
-    img { max-width: 100%; height: auto; display: block; }
-    a { color: var(--primary); text-decoration: none; }
-    
-    /* Header & Navigation */
-    header { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; }
-    .header-container { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1.25rem; }
-    .logo img { height: 48px; width: auto; }
-    .nav-links { display: flex; gap: 1.25rem; list-style: none; align-items: center; }
-    .nav-links a { font-weight: 600; color: var(--dark); font-size: 0.95rem; }
-    
-    /* Brand Buttons (Exact Green + White Text) */
-    .btn { display: inline-flex; align-items: center; justify-content: center; background: var(--primary); color: var(--text-on-primary) !important; font-weight: 700; padding: 0.85rem 1.75rem; border-radius: var(--radius); min-height: 48px; border: none; cursor: pointer; text-align: center; font-size: 1rem; }
-    .btn:hover { background: var(--primary-hover); }
-
-    /* Hero Section */
-    .hero { background: var(--light-bg); padding: 3rem 1.25rem; }
-    .hero-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center; }
-    .hero h1 { font-size: 2.25rem; font-weight: 900; color: var(--dark); line-height: 1.2; margin-bottom: 1rem; }
-    .hero h1 span { color: var(--primary); }
-    .hero p { font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1.5rem; }
-    
-    /* Bullet Benefits */
-    .benefits-list { list-style: none; margin-bottom: 2rem; }
-    .benefits-list li { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.85rem; font-size: 0.98rem; }
-    .checkmark { color: var(--primary); font-weight: bold; font-size: 1.2rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
-
-    /* Top Priority Client Logos Banner (Belfast Zoo First) */
-    .client-trust-section { padding: 2.5rem 1.25rem; background: #fff; border-bottom: 1px solid var(--border); text-align: center; }
-    .trust-title { font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 1.5rem; }
-    .client-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2.5rem; max-width: 1100px; margin: 0 auto; }
-    .client-grid img { max-height: 55px; width: auto; object-fit: contain; }
-    .client-grid .primary-client { max-height: 65px; font-weight: bold; }
-
-    /* On-Site Real Machine Gallery Showcase */
-    .onsite-section { padding: 3.5rem 1.25rem; background: var(--light-bg); border-bottom: 1px solid var(--border); }
-    .section-title { text-align: center; font-size: 1.85rem; color: var(--dark); font-weight: 800; margin-bottom: 0.5rem; }
-    .section-desc { text-align: center; color: var(--text-muted); max-width: 650px; margin: 0 auto 2.5rem; }
-    .onsite-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1200px; margin: 0 auto; }
-    .onsite-card { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.04); }
-    .onsite-card img { width: 100%; height: 260px; object-fit: cover; }
-    .onsite-card-body { padding: 1.25rem; }
-    .onsite-card-body h3 { font-size: 1.1rem; color: var(--dark); margin-bottom: 0.3rem; }
-    .onsite-card-body p { font-size: 0.88rem; color: var(--text-muted); }
-
-    /* Official Distribution Partner Banner */
-    .partner-section { max-width: 1200px; margin: 3rem auto; padding: 2rem 1.25rem; background: #fff; border: 1px solid var(--border); border-radius: var(--radius); display: flex; align-items: center; gap: 2rem; }
-    .partner-logo img { width: 130px; height: auto; }
-    .partner-text h2 { font-size: 1.3rem; color: var(--dark); margin-bottom: 0.5rem; }
-    .partner-text p { font-size: 0.95rem; color: var(--text-muted); }
-
-    /* Product Brands Section */
-    .brands-section { padding: 3rem 1.25rem; background: #fff; border-top: 1px solid var(--border); text-align: center; }
-    .brand-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; max-width: 1000px; margin: 1.5rem auto 0; }
-    .brand-grid img { max-height: 42px; width: auto; }
-
-    /* Service Features Grid */
-    .features { padding: 3.5rem 1.25rem; max-width: 1200px; margin: 0 auto; }
-    .grid-2x2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-    .card { border: 1px solid var(--border); border-radius: var(--radius); padding: 1.75rem; background: #fff; display: flex; gap: 1rem; align-items: flex-start; }
-    .card-icon { width: 44px; height: 44px; flex-shrink: 0; }
-    .card h3 { font-size: 1.1rem; margin-bottom: 0.3rem; color: var(--dark); }
-    .card p { font-size: 0.9rem; color: var(--text-muted); }
-    
-    /* Target Sectors SEO Tags */
-    .sectors { padding: 3rem 1.25rem; max-width: 1000px; margin: 0 auto; text-align: center; }
-    .sector-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.65rem; list-style: none; margin-top: 1.25rem; }
-    .sector-tags a { display: inline-block; background: var(--light-bg); padding: 0.5rem 1rem; border-radius: 20px; color: var(--text); border: 1px solid var(--border); font-size: 0.88rem; font-weight: 500; }
-    .sector-tags a:hover { border-color: var(--primary); color: var(--primary); }
-
-    /* Footer & Fixed Mobile CTA Bar */
-    footer { background: var(--dark); color: #fff; padding: 3.5rem 1.25rem 2rem; text-align: center; }
-    footer a { color: #cbd5e1; }
-    .footer-links { display: flex; justify-content: center; gap: 1.5rem; margin: 1.75rem 0; list-style: none; flex-wrap: wrap; font-size: 0.9rem; }
-    .mobile-sticky-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #fff; padding: 0.75rem 1rem; border-top: 1px solid var(--border); box-shadow: 0 -4px 12px rgba(0,0,0,0.12); z-index: 1000; }
-    .mobile-sticky-cta .btn { width: 100%; background: var(--primary); color: #fff !important; }
-
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-      .hero-container { grid-template-columns: 1fr; text-align: center; }
-      .hero h1 { font-size: 1.85rem; }
-      .benefits-list li { text-align: left; }
-      .partner-section { flex-direction: column; text-align: center; padding: 1.5rem; }
-      .nav-links { display: none; }
-      .mobile-sticky-cta { display: block; }
-      body { padding-bottom: 72px; }
-    }
-  </style>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>VendingNI &#8211; Free Vending Machine Solutions Northern Ireland</title>
+	<meta name='robots' content='max-image-preview:large' />
+	<link rel='stylesheet' id='wp-block-library-css' href='/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+	<style id='wp-block-library-theme-inline-css' type='text/css'>
+		.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}
+		.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}
+		.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}
+		.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}
+		.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}
+		.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}
+		.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}
+		.wp-block-cover{position:relative;background-size:cover;background-position:50%;min-height:430px;width:100%;display:flex;justify-content:center;align-items:center;padding:1em;box-sizing:border-box}
+	</style>
+	<style id='global-styles-inline-css' type='text/css'>
+		body{--wp--preset--color--vivid-green-cyan: #3ad06e;--wp--preset--color--dark-gray: #28303d;--wp--preset--color--white: #ffffff;--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}
+		.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan) !important;}
+		.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan) !important;}
+		.has-white-color{color:var(--wp--preset--color--white) !important;}
+		.has-white-background-color{background-color:var(--wp--preset--color--white) !important;}
+	</style>
 </head>
-<body>
 
-  <!-- Header -->
-  <header>
-    <div class="header-container">
-      <a href="/" class="logo">
-        <img src="/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" width="215" height="216" alt="VendingNI Logo" loading="eager">
-      </a>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="/vending-machines-for-an-office/">Offices</a></li>
-          <li><a href="/vending-machine-for-gym/">Gyms</a></li>
-          <li><a href="/vending-machines-in-hotels/">Hotels</a></li>
-          <li><a href="/vending-machines-in-hospitals/">Hospitals</a></li>
-          <li><a href="mailto:info@vendingni.com" class="btn">Get Free Machine</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<body class="home page-template-default page wp-embed-responsive">
+<div class="wp-site-blocks">
 
-  <main>
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-container">
-        <div>
-          <h1>Get A Free Vending Machine For Your <span>Organisation</span></h1>
-          <p>Full-service snack & beverage vending solutions across Northern Ireland. Zero equipment cost, zero installation fee, and zero maintenance hassle.</p>
-          
-          <ul class="benefits-list">
-            <li><span class="checkmark">✓</span> <div><strong>100% Free Managed Service</strong> – No cost to supply, install, or maintain equipment.</div></li>
-            <li><span class="checkmark">✓</span> <div><strong>Contactless & Cashless Ready</strong> – Accepts Apple Pay, Google Pay, and debit cards.</div></li>
-            <li><span class="checkmark">✓</span> <div><strong>Fully Managed Stocking</strong> – Regular scheduled refills tailored to your footfall.</div></li>
-            <li><span class="checkmark">✓</span> <div><strong>Custom Product Selection</strong> – Tailor exact snack & drink offerings to your staff and visitors.</div></li>
-            <li><span class="checkmark">✓</span> <div><strong>Fast Local Support</strong> – Dedicated callout service ensuring maximum uptime.</div></li>
-          </ul>
+	<!-- Header Block -->
+	<header class="wp-block-template-part">
+		<div class="wp-block-group alignfull navbar-container" style="padding-top:15px;padding-bottom:15px;padding-left:30px;padding-right:30px">
+			<div class="wp-block-group__inner-container">
+				<div class="wp-block-columns alignwide">
+					<div class="wp-block-column" style="flex-basis:30%">
+						<figure class="wp-block-image size-full is-resized">
+							<a href="/">
+								<img src="/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" alt="VendingNI Logo" class="wp-image-12" width="215" height="216" />
+							</a>
+						</figure>
+					</div>
+					<div class="wp-block-column" style="flex-basis:70%">
+						<nav class="wp-block-navigation is-responsive" aria-label="Main Navigation">
+							<ul class="wp-block-navigation__container">
+								<li class="wp-block-navigation-item"><a class="wp-block-navigation-item__content" href="/vending-machines-for-an-office/"><span class="wp-block-navigation-item__label">Offices</span></a></li>
+								<li class="wp-block-navigation-item"><a class="wp-block-navigation-item__content" href="/vending-machine-for-gym/"><span class="wp-block-navigation-item__label">Gyms</span></a></li>
+								<li class="wp-block-navigation-item"><a class="wp-block-navigation-item__content" href="/vending-machines-in-hotels/"><span class="wp-block-navigation-item__label">Hotels</span></a></li>
+								<li class="wp-block-navigation-item"><a class="wp-block-navigation-item__content" href="/vending-machines-in-hospitals/"><span class="wp-block-navigation-item__label">Hospitals</span></a></li>
+								<li class="wp-block-navigation-item"><a class="wp-block-navigation-item__content has-vivid-green-cyan-background-color has-white-color" href="mailto:info@vendingni.com" style="padding:10px 20px;border-radius:5px;"><span class="wp-block-navigation-item__label">Get Free Machine</span></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-          <a href="mailto:info@vendingni.com" class="btn">Request Your Free Vending Machine</a>
-        </div>
-        <div>
-          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" width="550" height="637" alt="VendingNI Modern Glass Front Machine" loading="eager">
-        </div>
-      </div>
-    </section>
+	<main class="wp-block-group">
+		<!-- Hero Section -->
+		<div class="wp-block-cover alignfull has-background-dim-0 is-light" style="background-color:#f4f9f6;min-height:550px">
+			<div class="wp-block-cover__inner-container">
+				<div class="wp-block-columns alignwide">
+					<div class="wp-block-column" style="flex-basis:55%">
+						<h1 class="has-text-color" style="color:#28303d;font-size:42px;line-height:1.2;font-weight:800">Get A Free Vending Machine For Your <span class="has-vivid-green-cyan-color">Organisation</span></h1>
+						<p style="font-size:18px;color:#4a5568">We provide a fully managed service at zero cost to you. Supply, installation, stock management, cleaning, and maintenance are completely taken care of.</p>
+						
+						<div class="wp-block-buttons" style="margin-top:25px">
+							<div class="wp-block-button">
+								<a class="wp-block-button__link has-vivid-green-cyan-background-color has-white-color" href="mailto:info@vendingni.com" style="border-radius:6px;padding:14px 28px;font-weight:bold;text-decoration:none;">Request Your Free Vending Machine</a>
+							</div>
+						</div>
+					</div>
+					<div class="wp-block-column" style="flex-basis:45%">
+						<figure class="wp-block-image size-large">
+							<img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" alt="Vending Machine" class="wp-image-45" />
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- First Visible Client Logos (Belfast Zoo Positioned First) -->
-    <section class="client-trust-section">
-      <p class="trust-title">Trusted By Leading Organisations Across Northern Ireland</p>
-      <div class="client-grid">
-        <img src="/wp-content/uploads/2024/02/zoo.png" alt="Belfast Zoo" class="primary-client" loading="eager">
-        <img src="/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" alt="VendingNI Client Partner" loading="lazy">
-        <img src="/wp-content/uploads/2023/02/download-3.png" alt="Client Partner Logo" loading="lazy">
-        <img src="/wp-content/uploads/2023/02/download-2.png" alt="Client Partner Logo" loading="lazy">
-      </div>
-    </section>
+		<!-- Client & Site Gallery Section -->
+		<div class="wp-block-group alignfull" style="padding-top:50px;padding-bottom:50px;background-color:#ffffff">
+			<div class="wp-block-group__inner-container">
+				<h2 class="has-text-align-center" style="font-size:28px;color:#28303d;margin-bottom:10px">Trusted By Leading Venues Across NI</h2>
+				<p class="has-text-align-center" style="color:#64748b;margin-bottom:30px">Our client portfolio includes high-footfall tourist attractions, corporate offices, and public facilities.</p>
+				
+				<!-- Logos Bar -->
+				<div class="wp-block-columns alignwide is-layout-flex">
+					<div class="wp-block-column">
+						<figure class="wp-block-image size-full">
+							<img src="/wp-content/uploads/2024/02/zoo.png" alt="Belfast Zoo Logo" class="wp-image- zoo-logo" />
+						</figure>
+					</div>
+					<div class="wp-block-column">
+						<figure class="wp-block-image size-full">
+							<img src="/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" alt="Client Logo" />
+						</figure>
+					</div>
+					<div class="wp-block-column">
+						<figure class="wp-block-image size-full">
+							<img src="/wp-content/uploads/2023/02/download-3.png" alt="Client Icon" />
+						</figure>
+					</div>
+					<div class="wp-block-column">
+						<figure class="wp-block-image size-full">
+							<img src="/wp-content/uploads/2023/02/download-2.png" alt="Client Icon" />
+						</figure>
+					</div>
+				</div>
 
-    <!-- Real Site Machine Photos (Belfast Zoo & Client Sites) -->
-    <section class="onsite-section">
-      <h2 class="section-title">Our Machines In Action On Site</h2>
-      <p class="section-desc">See our high-capacity, modern vending setups installed at top venues and facilities across Northern Ireland.</p>
-      
-      <div class="onsite-grid">
-        <div class="onsite-card">
-          <img src="/wp-content/uploads/2024/02/zoo1-1.png" alt="Vending Machine Installed at Belfast Zoo" loading="lazy">
-          <div class="onsite-card-body">
-            <h3>Belfast Zoo Installation</h3>
-            <p>High-volume visitor setup equipped with contactless payment readers.</p>
-          </div>
-        </div>
-        <div class="onsite-card">
-          <img src="/wp-content/uploads/2024/02/zoo2.png" alt="Vending Machine On Location" loading="lazy">
-          <div class="onsite-card-body">
-            <h3>Public Venue & Leisure Placement</h3>
-            <p>Chilled soft drinks and snack options tailored for high daily footfall.</p>
-          </div>
-        </div>
-        <div class="onsite-card">
-          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2.png" alt="Commercial Workplace Vending Machine" loading="lazy">
-          <div class="onsite-card-body">
-            <h3>Workplace & Office Deployment</h3>
-            <p>Glass-front combination vendor supplying snacks and drinks 24/7.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+				<!-- On-Site Machine Photos -->
+				<div class="wp-block-columns alignwide style-gallery" style="margin-top:40px">
+					<div class="wp-block-column">
+						<figure class="wp-block-image size-large">
+							<img src="/wp-content/uploads/2024/02/zoo1-1.png" alt="Vending Machine at Belfast Zoo Site" />
+							<figcaption class="blocks-gallery-caption">Belfast Zoo Installation</figcaption>
+						</figure>
+					</div>
+					<div class="wp-block-column">
+						<figure class="wp-block-image size-large">
+							<img src="/wp-content/uploads/2024/02/zoo2.png" alt="On Site Vending Machine Setup" />
+							<figcaption class="blocks-gallery-caption">Public Venue Deployment</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Official Distribution Partner Banner -->
-    <div style="padding: 0 1.25rem;">
-      <section class="partner-section">
-        <div class="partner-logo">
-          <img src="https://i0.wp.com/vendingni.com/wp-content/uploads/2023/01/bd1aaf39-737f-4e68-ae8f-ffbfad457625.png" alt="SandenVendo Logo" loading="lazy">
-        </div>
-        <div class="partner-text">
-          <h2>Official SandenVendo Distribution Partner</h2>
-          <p>We are proud partners of the official authorized distributor of SandenVendo vending machines across Northern Ireland. SandenVendo GmbH delivers world-class manufacturing, eco-friendly refrigeration, and proven equipment reliability.</p>
-        </div>
-      </section>
-    </div>
+		<!-- SandenVendo Partner Banner -->
+		<div class="wp-block-group alignwide" style="padding:30px;background-color:#f8f9fa;border-radius:8px;margin-top:40px;margin-bottom:40px">
+			<div class="wp-block-media-text alignwide is-stacked-on-mobile">
+				<figure class="wp-block-media-text__media">
+					<img src="https://i0.wp.com/vendingni.com/wp-content/uploads/2023/01/bd1aaf39-737f-4e68-ae8f-ffbfad457625.png" alt="SandenVendo Partner Logo" />
+				</figure>
+				<div class="wp-block-media-text__content">
+					<h2>Official SandenVendo Distribution Partner</h2>
+					<p>We are proud partners of the official authorized distributor of SandenVendo vending machines across Northern Ireland and Ireland. SandenVendo GmbH delivers world-class quality, reliability, and innovative vending technology backed by over 80 years of excellence.</p>
+				</div>
+			</div>
+		</div>
 
-    <!-- Product Brands Section -->
-    <section class="brands-section">
-      <p class="trust-title">Stocking Top Brands Your Staff & Visitors Love</p>
-      <div class="brand-grid">
-        <img src="/wp-content/uploads/2023/02/coca-cola-logopedia-fandom-powered-wikia-13-1024x345.png" alt="Coca-Cola" loading="lazy">
-        <img src="/wp-content/uploads/2023/01/Red-Bull-logo-1024x576.png" alt="Red Bull" loading="lazy">
-        <img src="/wp-content/uploads/2023/01/83-836450_cadbury-cadbury-chocolate-logo-hd-png-download.png" alt="Cadbury" loading="lazy">
-        <img src="/wp-content/uploads/2023/01/Mars-Logo-1-1024x576.png" alt="Mars" loading="lazy">
-        <img src="/wp-content/uploads/2024/02/mccoys-logo-edited.png" alt="McCoy's Crisps" loading="lazy">
-      </div>
-    </section>
+		<!-- Product Brands Section -->
+		<div class="wp-block-group alignfull" style="padding:40px 20px;background-color:#ffffff">
+			<h3 class="has-text-align-center" style="font-size:20px;text-transform:uppercase;letter-spacing:2px;color:#64748b">Stocking Your Favourite Brands</h3>
+			<div class="wp-block-columns alignwide" style="margin-top:20px">
+				<div class="wp-block-column"><figure class="wp-block-image"><img src="/wp-content/uploads/2023/02/coca-cola-logopedia-fandom-powered-wikia-13-1024x345.png" alt="Coca-Cola" /></figure></div>
+				<div class="wp-block-column"><figure class="wp-block-image"><img src="/wp-content/uploads/2023/01/Red-Bull-logo-1024x576.png" alt="Red Bull" /></figure></div>
+				<div class="wp-block-column"><figure class="wp-block-image"><img src="/wp-content/uploads/2023/01/83-836450_cadbury-cadbury-chocolate-logo-hd-png-download.png" alt="Cadbury" /></figure></div>
+				<div class="wp-block-column"><figure class="wp-block-image"><img src="/wp-content/uploads/2023/01/Mars-Logo-1-1024x576.png" alt="Mars" /></figure></div>
+				<div class="wp-block-column"><figure class="wp-block-image"><img src="/wp-content/uploads/2024/02/mccoys-logo-edited.png" alt="McCoy's Crisps" /></figure></div>
+			</div>
+		</div>
 
-    <!-- Service Features Grid -->
-    <section class="features">
-      <h2 class="section-title">Complete Managed Service Breakdown</h2>
-      <div class="grid-2x2">
-        <div class="card">
-          <img src="/wp-content/uploads/2023/02/download-3.png" class="card-icon" alt="Custom Selection Icon" loading="lazy">
-          <div>
-            <h3>Custom Product Selection</h3>
-            <p>Choose the exact snacks, cold beverages, and healthier dietary choices standard for your workplace.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="/wp-content/uploads/2023/02/download-2.png" class="card-icon" alt="Tailored Service Icon" loading="lazy">
-          <div>
-            <h3>Bespoke Schedule</h3>
-            <p>Refill and maintenance visit schedules customized around your facility's operational hours and footfall volume.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="/wp-content/uploads/2023/02/download-1.png" class="card-icon" alt="Zero Cost Icon" loading="lazy">
-          <div>
-            <h3>Zero Expense Guarantee</h3>
-            <p>Qualifying sites receive complete delivery, machine setup, stock replenishment, and technical support at £0 cost.</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="/wp-content/uploads/2023/02/images.png" class="card-icon" alt="Support Icon" loading="lazy">
-          <div>
-            <h3>Local Support Team</h3>
-            <p>Fast, direct technical support and emergency callout service across all Northern Ireland locations.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+		<!-- Benefits Grid -->
+		<div class="wp-block-group alignwide" style="padding-top:40px;padding-bottom:40px">
+			<h2 class="has-text-align-center" style="color:#28303d;margin-bottom:30px">An Efficient & Unified Vending Solution</h2>
+			<div class="wp-block-columns">
+				<div class="wp-block-column">
+					<div class="wp-block-group" style="padding:20px;border:1px solid #e2e8f0;border-radius:8px">
+						<figure class="wp-block-image size-thumbnail"><img src="/wp-content/uploads/2023/02/download-3.png" alt="Choice icon" /></figure>
+						<h3>Custom Product Selection</h3>
+						<p>Choose the exact snacks, cold drinks, and healthier alternatives you want stocked in your facility.</p>
+					</div>
+				</div>
+				<div class="wp-block-column">
+					<div class="wp-block-group" style="padding:20px;border:1px solid #e2e8f0;border-radius:8px">
+						<figure class="wp-block-image size-thumbnail"><img src="/wp-content/uploads/2023/02/download-2.png" alt="Tailored Service icon" /></figure>
+						<h3>Tailored Management</h3>
+						<p>We build a bespoke service tailored to your staff and visitor footfall needs rather than a generic template.</p>
+					</div>
+				</div>
+			</div>
+			<div class="wp-block-columns" style="margin-top:20px">
+				<div class="wp-block-column">
+					<div class="wp-block-group" style="padding:20px;border:1px solid #e2e8f0;border-radius:8px">
+						<figure class="wp-block-image size-thumbnail"><img src="/wp-content/uploads/2023/02/download-1.png" alt="Zero cost icon" /></figure>
+						<h3>100% Free Managed Service</h3>
+						<p>Sufficient footfall organisations qualify for complete supply, restocking, and maintenance at zero expense.</p>
+					</div>
+				</div>
+				<div class="wp-block-column">
+					<div class="wp-block-group" style="padding:20px;border:1px solid #e2e8f0;border-radius:8px">
+						<figure class="wp-block-image size-thumbnail"><img src="/wp-content/uploads/2023/02/images.png" alt="Support icon" /></figure>
+						<h3>Dedicated Local Support</h3>
+						<p>Direct accessibility and fast response times to keep your vending equipment running smoothly.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-    <!-- Target Sectors SEO Links -->
-    <section class="sectors">
-      <p class="trust-title">Sectors We Serve Across Northern Ireland</p>
-      <div class="sector-tags">
-        <a href="/vending-machines-for-an-office/">Offices</a>
-        <a href="/vending-machine-for-gym/">Gyms</a>
-        <a href="/vending-machine-for-a-factory/">Factories</a>
-        <a href="/vending-machines-in-hotels/">Hotels</a>
-        <a href="/vending-machines-in-hospitals/">Hospitals</a>
-        <a href="/vending-machines-for-shared-working-spaces/">Shared Workspaces</a>
-        <a href="/school-vending-machine/">Schools</a>
-        <a href="/airport-vending-machine/">Airports</a>
-        <a href="/vending-machine-for-apartment-building/">Apartments</a>
-      </div>
-    </section>
-  </main>
+		<!-- Target Sectors Cloud -->
+		<div class="wp-block-group alignfull" style="padding:40px 20px;background-color:#f4f9f6">
+			<h2 class="has-text-align-center" style="color:#28303d">Sectors We Serve Across Northern Ireland</h2>
+			<ul class="wp-block-categories-list wp-block-categories" style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;list-style:none;margin-top:20px">
+				<li><a href="/vending-machines-for-an-office/">Offices</a></li>
+				<li><a href="/vending-machine-for-gym/">Gyms</a></li>
+				<li><a href="/vending-machine-for-a-factory/">Factories</a></li>
+				<li><a href="/vending-machines-in-hotels/">Hotels</a></li>
+				<li><a href="/vending-machines-in-hospitals/">Hospitals</a></li>
+				<li><a href="/vending-machines-for-shared-working-spaces/">Shared Working Spaces</a></li>
+				<li><a href="/school-vending-machine/">Schools</a></li>
+				<li><a href="/airport-vending-machine/">Airports</a></li>
+				<li><a href="/vending-machine-for-apartment-building/">Apartment Buildings</a></li>
+			</ul>
+		</div>
+	</main>
 
-  <!-- Footer -->
-  <footer>
-    <h2>Request Your Free Machine Today</h2>
-    <p style="margin: 0.85rem 0 1.5rem; color: #94a3b8; font-size: 0.95rem;">Contact us to confirm eligibility for your venue or commercial space.</p>
-    <a href="mailto:info@vendingni.com" class="btn">Email info@vendingni.com</a>
+	<!-- Footer Block -->
+	<footer class="wp-block-template-part">
+		<div class="wp-block-group alignfull" style="background-color:#28303d;color:#ffffff;padding:50px 20px;text-align:center">
+			<h2>Request a free machine today</h2>
+			<p style="color:#a0aec0;margin:15px 0 25px">Get in touch to check eligibility for your workplace or venue.</p>
+			<a class="wp-block-button__link has-vivid-green-cyan-background-color has-white-color" href="mailto:info@vendingni.com" style="padding:12px 24px;border-radius:5px;text-decoration:none;font-weight:bold;">Email info@vendingni.com</a>
 
-    <ul class="footer-links">
-      <li><a href="/wpautoterms/privacy-policy/">Privacy Policy</a></li>
-      <li><a href="/wpautoterms/terms-and-conditions/">Terms & Conditions</a></li>
-      <li><a href="https://www.linkedin.com/company/vendingni" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="https://instagram.com/vendingni" target="_blank" rel="noopener">Instagram</a></li>
-    </ul>
+			<ul style="display:flex;justify-content:center;gap:20px;list-style:none;margin-top:40px;padding:0">
+				<li><a href="/wpautoterms/privacy-policy/" style="color:#cbd5e1">Privacy Policy</a></li>
+				<li><a href="/wpautoterms/terms-and-conditions/" style="color:#cbd5e1">Terms & Conditions</a></li>
+				<li><a href="https://www.linkedin.com/company/vendingni" target="_blank" rel="noopener" style="color:#cbd5e1">LinkedIn</a></li>
+				<li><a href="https://instagram.com/vendingni" target="_blank" rel="noopener" style="color:#cbd5e1">Instagram</a></li>
+			</ul>
 
-    <p style="font-size: 0.85rem; color: #64748b; margin-top: 2rem;">© 2026 VendingNI. All rights reserved.</p>
-  </footer>
+			<p style="font-size:13px;color:#718096;margin-top:30px">© 2026 VendingNI. All rights reserved.</p>
+		</div>
+	</footer>
 
-  <!-- Fixed Mobile Action CTA Button -->
-  <div class="mobile-sticky-cta">
-    <a href="mailto:info@vendingni.com" class="btn">Request Free Vending Machine</a>
-  </div>
-
+</div>
 </body>
 </html>
