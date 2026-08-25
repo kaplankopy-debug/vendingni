@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>About Us | Free Managed Vending Machines Northern Ireland | VendingNI</title>
+  <meta name="description" content="Learn more about VendingNI, Northern Ireland's trusted provider of fully managed, zero-cost snack and drink vending machine solutions for workplaces and venues.">
+  <link rel="canonical" href="https://vendingni.com/about/">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="VendingNI">
+  <meta property="og:title" content="About VendingNI | Northern Ireland Vending Services">
+  <meta property="og:description" content="Discover how VendingNI delivers reliable, zero-cost vending machine solutions tailored to offices, gyms, and venues across Northern Ireland.">
+  <meta property="og:url" content="https://vendingni.com/about/">
+
+  <style>
+    :root {
+      /* Exact Original Brand Colors */
+      --wp--preset--color--vivid-green-cyan: #3ad06e;
+      --wp--preset--color--dark-gray: #28303d;
+      --wp--preset--color--white: #ffffff;
+      
+      --primary: var(--wp--preset--color--vivid-green-cyan);
+      --dark: var(--wp--preset--color--dark-gray);
+      --text-on-primary: var(--wp--preset--color--white);
+      --light-bg: #f4f9f6;
+      --text: #2d3748;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif; color: var(--text); line-height: 1.6; background: #fff; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: var(--primary); text-decoration: none; }
+    
+    /* SEO Accessibility Utility */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    
+    /* Header Navigation & Mobile Menu */
+    header { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1000; }
+    .header-container { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1.25rem; position: relative; }
+    .logo img { height: 96px; width: auto; }
+    
+    .nav-links { display: flex; gap: 1.25rem; list-style: none; align-items: center; }
+    .nav-links a { font-weight: 600; color: var(--dark); font-size: 0.95rem; }
+    .nav-links a.active { color: var(--primary); }
+
+    /* Aesthetic Section Divider Banner */
+    .section-divider {
+      height: 6px;
+      background-color: var(--primary);
+      width: 100%;
+    }
+
+    /* Mobile Hamburger Menu Toggle Button */
+    .menu-toggle { display: none; background: none; border: none; font-size: 1.75rem; color: var(--dark); cursor: pointer; padding: 0.25rem 0.5rem; }
+
+    /* Buttons */
+    .btn { display: inline-flex; align-items: center; justify-content: center; background-color: var(--primary) !important; color: var(--text-on-primary) !important; font-weight: 700; padding: 0.85rem 1.75rem; border-radius: var(--radius); min-height: 48px; border: none; cursor: pointer; text-align: center; font-size: 1rem; text-decoration: none; }
+    .btn:hover { opacity: 0.92; }
+
+    /* Page Header Banner */
+    .page-hero { background: var(--light-bg); padding: 4rem 1.25rem 3rem; text-align: center; border-bottom: 1px solid var(--border); }
+    .page-hero h1 { font-size: 2.5rem; font-weight: 900; color: var(--dark); margin-bottom: 0.75rem; }
+    .page-hero p { font-size: 1.1rem; color: var(--text-muted); max-width: 700px; margin: 0 auto; }
+
+    /* About Content Section */
+    .about-section { padding: 4rem 1.25rem; max-width: 1100px; margin: 0 auto; }
+    .founder-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 3.5rem; align-items: center; margin-bottom: 4rem; }
+    
+    .founder-image-wrapper { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); box-shadow: 0 10px 25px rgba(0,0,0,0.05); background: var(--light-bg); }
+    .founder-image-wrapper img { width: 100%; height: auto; object-fit: cover; display: block; }
+    
+    .founder-content h2 { font-size: 2rem; font-weight: 800; color: var(--dark); margin-bottom: 0.5rem; }
+    .founder-subtitle { font-size: 1rem; color: var(--primary); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1.5rem; }
+    .founder-content p { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 1.25rem; }
+
+    /* Core Pillars Grid */
+    .pillars-container { background: var(--light-bg); padding: 4rem 1.25rem; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+    .pillars-inner { max-width: 1100px; margin: 0 auto; }
+    .pillars-title { text-align: center; font-size: 1.85rem; font-weight: 800; color: var(--dark); margin-bottom: 2.5rem; }
+    .pillars-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+    .pillar-card { background: #fff; padding: 2rem; border-radius: var(--radius); border: 1px solid var(--border); }
+    .pillar-card h3 { font-size: 1.2rem; color: var(--dark); margin-bottom: 0.75rem; font-weight: 700; }
+    .pillar-card p { font-size: 0.95rem; color: var(--text-muted); }
+
+    /* Footer */
+    footer { background: var(--dark); color: #fff; padding: 3.5rem 1.25rem 2rem; text-align: center; }
+    footer a { color: #cbd5e1; }
+    .footer-links { display: flex; justify-content: center; gap: 1.5rem; margin: 1.75rem 0; list-style: none; flex-wrap: wrap; font-size: 0.9rem; }
+    .mobile-sticky-cta { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: #fff; padding: 0.75rem 1rem; border-top: 1px solid var(--border); box-shadow: 0 -4px 12px rgba(0,0,0,0.12); z-index: 1000; }
+    .mobile-sticky-cta .btn { width: 100%; }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .menu-toggle { display: block; }
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #ffffff;
+        padding: 1.25rem;
+        border-bottom: 1px solid var(--border);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        gap: 1rem;
+        align-items: flex-start;
+      }
+      .nav-links.active { display: flex; }
+      .nav-links li { width: 100%; }
+      .nav-links a { display: block; font-size: 1.05rem; padding: 0.4rem 0; border-bottom: 1px solid #f1f5f9; }
+      .nav-links .btn { margin-top: 0.5rem; text-align: center; }
+
+      .founder-grid { grid-template-columns: 1fr; gap: 2rem; }
+      .page-hero h1 { font-size: 2rem; }
+      .mobile-sticky-cta { display: block; }
+      body { padding-bottom: 72px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <a href="https://vendingni.com/" class="logo">
+        <img src="https://vendingni.com/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" width="215" height="216" alt="VendingNI Logo" loading="eager">
+      </a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">☰</button>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="https://vendingni.com/vending-machines-for-an-office/">Offices</a></li>
+          <li><a href="https://vendingni.com/vending-machine-for-gym/">Gyms</a></li>
+          <li><a href="https://vendingni.com/vending-machines-in-hotels/">Hotels</a></li>
+          <li><a href="https://vendingni.com/vending-machines-in-hospitals/">Hospitals</a></li>
+          <li><a href="https://vendingni.com/blog/">Blog</a></li>
+          <li><a href="https://vendingni.com/about/" class="active">About</a></li>
+          <li><a href="mailto:info@vendingni.com" class="btn">Get Free Machine</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Green Divider -->
+  <div class="section-divider" aria-hidden="true"></div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h1>About VendingNI</h1>
+    <p>Delivering dependable, fully managed snack and beverage vending solutions across Northern Ireland with zero capital investment required from your organisation.</p>
+  </section>
+
+  <!-- Main Founder Section -->
+  <main class="about-section">
+    <div class="founder-grid">
+      <div class="founder-image-wrapper">
+        <!-- Make sure tim.jpg is uploaded in the same directory as this file -->
+        <img src="tim.jpg" alt="Tim - Founder of VendingNI" loading="eager">
+      </div>
+      <div class="founder-content">
+        <h2>Built on Local Reliability</h2>
+        <p class="founder-subtitle">Meet the Founder</p>
+        <p>VendingNI was established with a straightforward mission: to provide businesses, offices, fitness facilities, and public venues across Northern Ireland with high-end, hassle-free vending solutions that require zero capital outlay.</p>
+        <p>We take complete care of everything from professional installation and modern cashless payment setup to regular scheduled stocking and maintenance. Our focus is entirely on keeping your staff, clients, and visitors refreshed with their favorite snacks and cold drinks without adding any operational overhead to your team.</p>
+        <a href="mailto:info@vendingni.com" class="btn" style="margin-top: 1rem;">Get in Touch</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Core Pillars -->
+  <section class="pillars-container">
+    <div class="pillars-inner">
+      <h2 class="pillars-title">The VendingNI Commitment</h2>
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <h3>£0 Cost to Your Organisation</h3>
+          <p>We supply, install, stock, and maintain the equipment entirely at our own expense. Qualifying venues enjoy a fully managed service at absolutely zero financial risk.</p>
+        </div>
+        <div class="pillar-card">
+          <h3>Modern Cashless Technology</h3>
+          <p>Every machine is equipped with advanced contactless card, Apple Pay, and Google Pay readers alongside reliable coin acceptance, ensuring maximum convenience.</p>
+        </div>
+        <div class="pillar-card">
+          <h3>Tailored Local Support</h3>
+          <p>Based locally in Northern Ireland, we provide responsive support, customized product selections, and dependable refill schedules tailored to your exact footfall.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h2>Request Your Free Machine Today</h2>
+    <p style="margin: 0.85rem 0 1.5rem; color: #94a3b8; font-size: 0.95rem;">Contact us to confirm eligibility for your venue or commercial space.</p>
+    <a href="mailto:info@vendingni.com" class="btn">Email info@vendingni.com</a>
+
+    <ul class="footer-links">
+      <li><a href="https://vendingni.com/blog/">Blog</a></li>
+      <li><a href="https://vendingni.com/about/">About</a></li>
+      <li><a href="https://vendingni.com/wpautoterms/privacy-policy/">Privacy Policy</a></li>
+      <li><a href="https://vendingni.com/wpautoterms/terms-and-conditions/">Terms & Conditions</a></li>
+    </ul>
+
+    <p style="font-size: 0.85rem; color: #64748b; margin-top: 2rem;">© 2026 VendingNI. All rights reserved.</p>
+  </footer>
+
+  <!-- Fixed Mobile Action CTA Button -->
+  <div class="mobile-sticky-cta">
+    <a href="mailto:info@vendingni.com" class="btn">Request Free Vending Machine</a>
+  </div>
+
+  <script>
+    // Collapsible Mobile Menu Script
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
