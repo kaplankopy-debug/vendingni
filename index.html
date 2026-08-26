@@ -102,8 +102,11 @@
     }
     
     header { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1000; }
-    .header-container { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1.25rem; position: relative; }
+    .header-container { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1.25rem; position: relative; gap: 1rem; }
+    .logo-area { display: flex; align-items: center; gap: 1rem; }
     .logo img { height: 96px; width: auto; }
+    .header-email { font-weight: 600; color: var(--dark); font-size: 0.95rem; display: inline-flex; align-items: center; gap: 0.35rem; }
+    .header-email:hover { color: var(--primary); }
     
     .nav-links { display: flex; gap: 1.25rem; list-style: none; align-items: center; }
     .nav-links a { font-weight: 600; color: var(--dark); font-size: 0.95rem; }
@@ -168,6 +171,7 @@
 
     @media (max-width: 768px) {
       .menu-toggle { display: block; }
+      .header-email { display: none; } /* Hide email in header on mobile to save space */
       
       .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: #ffffff; padding: 1.25rem; border-bottom: 1px solid var(--border); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); gap: 1rem; align-items: flex-start; }
       .nav-links.active { display: flex; }
@@ -198,9 +202,12 @@
 
   <header>
     <div class="header-container">
-      <a href="https://vendingni.com/" class="logo" aria-label="VendingNI Home">
-        <img src="https://vendingni.com/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" width="215" height="216" alt="VendingNI Logo - Vending Machine Supplier Ireland" fetchpriority="high" decoding="async">
-      </a>
+      <div class="logo-area">
+        <a href="https://vendingni.com/" class="logo" aria-label="VendingNI Home">
+          <img src="https://vendingni.com/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" width="215" height="216" alt="VendingNI Logo - Vending Machine Supplier Ireland" fetchpriority="high" decoding="async">
+        </a>
+        <a href="mailto:info@vendingni.com" class="header-email">info@vendingni.com</a>
+      </div>
       
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
 
