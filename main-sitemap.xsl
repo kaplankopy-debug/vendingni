@@ -118,7 +118,7 @@
 								This KML file contains <xsl:value-of select="count(kml:kml/kml:Document/kml:Folder/kml:Placemark)"/> Locations.
 							</p>
 							<p class="expl">
-								<a href="/sitemap_index.xml">&#8592; Sitemap Index</a>							</p>
+								<a href="https://vendingni.com/sitemap_index.xml">&#8592; Sitemap Index</a>							</p>
 							<table id="sitemap" cellpadding="3">
 								<thead>
 									<tr>
@@ -213,7 +213,7 @@
 									This XML Sitemap contains <strong><xsl:value-of select="count(sitemap:urlset/sitemap:url)"/></strong> URLs.								</p>
 
 								<p class="expl">
-									<a href="/sitemap_index.xml">&#8592; Sitemap Index</a>								</p>
+									<a href="https://vendingni.com/sitemap_index.xml">&#8592; Sitemap Index</a>								</p>
 
 								<table id="sitemap" cellpadding="3">
 
@@ -238,7 +238,7 @@
 													</a>
 												</td>
 																								<td>
-													<xsl:value-of select="count(image:image)"/>
+													<xsl:value-of select="count(image:image)`"/>
 												</td>
 																								<td>
 													<xsl:value-of select="concat(substring(sitemap:lastmod,0,11),concat(' ', substring(sitemap:lastmod,12,5)),concat(' ', substring(sitemap:lastmod,20,6)))"/>
