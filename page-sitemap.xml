@@ -1,157 +1,157 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://vendingni.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/</loc>
+		<loc>https://vendingni.com/</loc>
 		<lastmod>2023-08-09T12:18:35+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/dublin-vending-solutions/</loc>
+		<loc>https://vendingni.com/dublin-vending-solutions/</loc>
 		<lastmod>2025-08-25T13:55:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/machines/</loc>
+		<loc>https://vendingni.com/machines/</loc>
 		<lastmod>2024-06-17T12:44:12+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Necta_Snakky_Max_Green_Image.jpg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Necta_Snakky_Max_Green_Image.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/samba.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/samba.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Crane_Merchant_Image.jpg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Crane_Merchant_Image.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Capt1111ure.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Capt1111ure.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Captur7777e.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Captur7777e.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/coffeema.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/coffeema.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/222.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/222.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/resources/</loc>
+		<loc>https://vendingni.com/resources/</loc>
 		<lastmod>2023-08-19T21:48:50+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/drinks-vending-machines/</loc>
+		<loc>https://vendingni.com/drinks-vending-machines/</loc>
 		<lastmod>2023-08-19T21:39:51+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/resources/apartment-vending-machines/</loc>
+		<loc>https://vendingni.com/resources/apartment-vending-machines/</loc>
 		<lastmod>2023-08-19T15:29:29+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/resources/snack-vending-machines/</loc>
+		<loc>https://vendingni.com/resources/snack-vending-machines/</loc>
 		<lastmod>2023-08-19T15:27:06+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/vending-machines-for-an-office/</loc>
+		<loc>https://vendingni.com/vending-machines-for-an-office/</loc>
 		<lastmod>2023-08-16T14:55:33+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/download.jpeg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/download.jpeg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/C2323apture-edited-3.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/C2323apture-edited-3.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/vending-machine-for-a-factory/</loc>
+		<loc>https://vendingni.com/vending-machine-for-a-factory/</loc>
 		<lastmod>2023-08-16T14:49:34+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/download.jpg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/download.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/samba.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/samba.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/school-vending-machine/</loc>
+		<loc>https://vendingni.com/school-vending-machine/</loc>
 		<lastmod>2023-08-16T14:44:47+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Captkure.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Captkure.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/8CDF-472.jpeg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/8CDF-472.jpeg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/airport-vending-machine/</loc>
+		<loc>https://vendingni.com/airport-vending-machine/</loc>
 		<lastmod>2023-08-16T14:42:34+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/111470735_060837214.jpg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/111470735_060837214.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Captkure.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Captkure.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/about/</loc>
+		<loc>https://vendingni.com/about/</loc>
 		<lastmod>2023-08-16T14:41:05+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/C2323apture-edited-4.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/C2323apture-edited-4.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/vending-machines-in-hotels/</loc>
+		<loc>https://vendingni.com/vending-machines-in-hotels/</loc>
 		<lastmod>2023-08-14T18:42:56+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Capture.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Capture.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Capy78hture-edited.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Capy78hture-edited.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/vending-machines-for-shared-working-spaces/</loc>
+		<loc>https://vendingni.com/vending-machines-for-shared-working-spaces/</loc>
 		<lastmod>2023-08-14T15:41:39+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Insideasharedworkspace.jpg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Insideasharedworkspace.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/C2323apture-e1692029206155.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/C2323apture-e1692029206155.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/vending-machines-in-hospitals/</loc>
+		<loc>https://vendingni.com/vending-machines-in-hospitals/</loc>
 		<lastmod>2023-08-14T15:11:45+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/Capture-1.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/Capture-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/C2323apture-edited-1.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/C2323apture-edited-1.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/vending-machine-for-apartment-building/</loc>
+		<loc>https://vendingni.com/vending-machine-for-apartment-building/</loc>
 		<lastmod>2023-08-13T19:59:56+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/FortaPRO_Berkeley_Homes_External-view.jpeg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/FortaPRO_Berkeley_Homes_External-view.jpeg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/C2323apture-e1692029206155.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/C2323apture-e1692029206155.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/vending-machine-for-gym/</loc>
+		<loc>https://vendingni.com/vending-machine-for-gym/</loc>
 		<lastmod>2023-08-13T19:56:41+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/download-1-1.jpeg</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/download-1-1.jpeg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/uploads/2023/08/C2323apture-e1692029206155.png</image:loc>
+			<image:loc>https://vendingni.com/wp-content/uploads/2023/08/C2323apture-e1692029206155.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/contact/</loc>
+		<loc>https://vendingni.com/contact/</loc>
 		<lastmod>2023-08-13T17:01:57+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/terms%20%20conditions/</loc>
+		<loc>https://vendingni.com/terms%20%20conditions/</loc>
 		<lastmod>2023-03-28T22:03:13+00:00</lastmod>
 	</url>
 </urlset>
