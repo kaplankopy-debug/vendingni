@@ -89,6 +89,26 @@
       border: 0;
     }
 
+
+    .top-contact-bar {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+      padding: 0.35rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .top-contact-bar a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .top-contact-bar a:hover {
+      text-decoration: underline;
+    }
+
     header { background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1000; }
     .header-container { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1.25rem; position: relative; }
     .logo img { height: 96px; width: auto; }
@@ -172,6 +192,12 @@
     .mobile-sticky-cta .btn { width: 100%; }
 
     @media (max-width: 768px) {
+
+      .top-contact-bar {
+        font-size: 0.85rem;
+        padding: 0.3rem 0.75rem;
+      }
+
       .menu-toggle { display: block; }
 
       .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: #ffffff; padding: 1.25rem; border-bottom: 1px solid var(--border); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); gap: 1rem; align-items: flex-start; }
@@ -205,6 +231,9 @@
 <body>
 
   <header>
+    <div class="top-contact-bar">
+      Email us: <a href="mailto:info@vendingni.com">info@vendingni.com</a>
+    </div>
     <div class="header-container">
       <a href="https://vendingni.com/" class="logo" aria-label="VendingNI Home">
         <img src="https://vendingni.com/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" width="215" height="216" alt="VendingNI" fetchpriority="high" decoding="async">
