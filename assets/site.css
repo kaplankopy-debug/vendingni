@@ -43,6 +43,7 @@ h3{font-size:1.12rem;line-height:1.3;color:var(--dark);margin-bottom:8px}
 .trust-title{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:800;margin-bottom:18px}
 .logo-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:22px;align-items:center}
 .logo-grid img{max-height:58px;margin:auto;object-fit:contain}
+.logo-grid img[src$="nifa.jpg"],.logo-grid img[src$="titanic.jpg"]{max-height:72.5px}
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .gallery img{width:100%;height:280px;object-fit:cover;border-radius:var(--radius);border:1px solid var(--border)}
 .pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
