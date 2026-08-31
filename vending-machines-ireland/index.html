@@ -46,6 +46,8 @@ gtag('config','G-M4P8G1S0T0');
   ]
 }
 </script>
+<link rel="stylesheet" href="/assets/navigation.css">
+<script defer src="/assets/navigation.js"></script>
 </head>
 
 <body>
@@ -68,16 +70,7 @@ gtag('config','G-M4P8G1S0T0');
       aria-label="Toggle navigation"
       aria-expanded="false">☰</button>
 
-    <nav aria-label="Primary">
-      <ul id="navLinks">
-        <li><a href="/">Home</a></li>
-        <li><a href="/machines/">Machines</a></li>
-        <li><a href="/vending-machines-in-northern-ireland/">Northern Ireland</a></li>
-        <li><a href="/vending-machines-for-an-office/">Offices</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a class="btn" href="mailto:info@vendingni.com">Get a Free Machine</a></li>
-      </ul>
-    </nav>
+    <nav class="site-navigation" aria-label="Primary navigation"><ul class="nav-links" id="navLinks"><li><a href="/">Home</a></li><li><a href="/machines/">Machines</a></li><li class="has-dropdown"><button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="solutionsMenu">Vending Solutions <span class="dropdown-arrow" aria-hidden="true">▼</span></button><ul class="dropdown-menu" id="solutionsMenu"><li><a href="/vending-solutions/">All Vending Solutions</a></li><li><a href="/vending-machines-for-an-office/">Offices</a></li><li><a href="/vending-machine-for-gym/">Gyms</a></li><li><a href="/vending-machine-for-a-factory/">Factories &amp; Warehouses</a></li><li><a href="/vending-machines-in-hotels/">Hotels</a></li><li><a href="/vending-machines-in-hospitals/">Hospitals</a></li><li><a href="/school-vending-machine/">Schools</a></li><li><a href="/vending-machines-for-nursing-homes/">Nursing &amp; Care Homes</a></li><li><a href="/vending-machines-for-shared-working-spaces/">Shared Workspaces</a></li><li><a href="/vending-machine-for-apartment-building/">Apartment Buildings</a></li><li><a href="/airport-vending-machine/">Airports</a></li></ul></li><li><a href="/about/">About</a></li><li><a class="nav-cta" href="/how-to-get-a-free-vending-machine/">Get a Free Machine</a></li></ul></nav>
 
   </div>
 </header>
@@ -275,17 +268,7 @@ gtag('config','G-M4P8G1S0T0');
 </div>
 
 
-<script>
-const b=document.getElementById('menuToggle');
-const n=document.getElementById('navLinks');
 
-if(b&&n){
-  b.addEventListener('click',()=>{
-    const x=n.classList.toggle('active');
-    b.setAttribute('aria-expanded',String(x));
-  });
-}
-</script>
 
 </body>
 </html>
