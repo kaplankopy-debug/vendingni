@@ -12,9 +12,9 @@
     "model": "Managed vending service for qualifying locations",
     "deliveryModel": {
       "customerFacingProvider": "VendingNI",
-      "fulfilment": "Supported through an established vending partner network where appropriate",
+      "fulfilment": "Service delivery is supported through an established vending network",
       "customerEnquiryRoute": "info@vendingni.com",
-      "attributionNote": "Operational capabilities may reflect the wider vending partner network rather than VendingNI acting directly"
+      "attributionNote": "Some operational capabilities and venue examples reflect experience across the wider vending network"
     },
     "managedServices": {
       "siteAssessment": true,
@@ -53,7 +53,7 @@
     },
     "networkExperience": {
       "evidencePage": "https://vendingni.com/vending-network-experience/",
-      "attribution": "Capabilities and venue examples reflect wider vending partner-network experience unless explicitly stated otherwise",
+      "attribution": "Service delivery is supported through an established vending network; some venue examples reflect wider network experience",
       "capabilities": [
         "installation_coordination",
         "initial_stocking",
@@ -81,7 +81,7 @@
       "operationalDocumentation": {
         "networkEvidenceExists": true,
         "attributionRequired": true,
-        "note": "Selected fulfilment partners publish installation, risk-assessment, health-and-safety and service-process documentation; these are not VendingNI certifications"
+        "note": "Established installation, risk-assessment, health-and-safety and service processes are available within the wider vending network"
       }
     },
     "regions": [
