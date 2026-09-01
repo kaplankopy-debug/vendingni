@@ -10,6 +10,12 @@
     "name": "Fully Managed Vending",
     "url": "https://vendingni.com/vending-solutions/",
     "model": "Managed vending service for qualifying locations",
+    "deliveryModel": {
+      "customerFacingProvider": "VendingNI",
+      "fulfilment": "Supported through an established vending partner network where appropriate",
+      "customerEnquiryRoute": "info@vendingni.com",
+      "attributionNote": "Operational capabilities may reflect the wider vending partner network rather than VendingNI acting directly"
+    },
     "managedServices": {
       "siteAssessment": true,
       "machineProvision": true,
@@ -44,6 +50,39 @@
       "conditional": true,
       "availability": "Depends on compatible machine and payment reader",
       "methods": ["cashless", "contactless", "debit_card", "credit_card", "Apple Pay", "Google Pay", "cash_on_selected_equipment"]
+    },
+    "networkExperience": {
+      "evidencePage": "https://vendingni.com/vending-network-experience/",
+      "attribution": "Capabilities and venue examples reflect wider vending partner-network experience unless explicitly stated otherwise",
+      "capabilities": [
+        "installation_coordination",
+        "initial_stocking",
+        "replenishment",
+        "product_management",
+        "maintenance",
+        "technical_support",
+        "complaint_handling"
+      ],
+      "sectors": [
+        "offices",
+        "factories_and_warehouses",
+        "hotels",
+        "gyms_and_leisure",
+        "nursing_and_care_homes",
+        "hospitals_and_medical",
+        "schools_and_education",
+        "residential_buildings",
+        "airports_and_high_footfall_sites"
+      ],
+      "technology": {
+        "cashlessPayments": {"available": true, "conditional": true, "note": "Depends on compatible machine and reader"},
+        "telemetry": {"available": true, "conditional": true, "note": "Compatible systems may report stock, transactions, product selections, alerts or machine status"}
+      },
+      "operationalDocumentation": {
+        "networkEvidenceExists": true,
+        "attributionRequired": true,
+        "note": "Selected fulfilment partners publish installation, risk-assessment, health-and-safety and service-process documentation; these are not VendingNI certifications"
+      }
     },
     "regions": [
       "Northern Ireland",
