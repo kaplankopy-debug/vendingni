@@ -7,6 +7,7 @@ header,.header,.header-container{position:relative}
 .site-navigation .dropdown-arrow{font-size:.72rem;transition:transform .2s ease}
 .site-navigation .has-dropdown.open>.dropdown-toggle .dropdown-arrow{transform:rotate(180deg)}
 .site-navigation .dropdown-menu{display:none;position:absolute;top:calc(100% + .7rem);left:50%;transform:translateX(-50%);min-width:270px;margin:0;padding:.55rem;list-style:none;background:#fff;border:1px solid #e2e8f0;border-radius:10px;box-shadow:0 14px 30px rgba(0,0,0,.12);z-index:1100}
+.site-navigation .dropdown-menu::before{content:"";position:absolute;left:0;right:0;top:-.75rem;height:.75rem}
 .site-navigation .has-dropdown.open>.dropdown-menu{display:block}
 .site-navigation .dropdown-menu li{width:100%;margin:0;padding:0}
 .site-navigation .dropdown-menu a{display:block;padding:.62rem .75rem;border-radius:6px;white-space:nowrap}
@@ -19,6 +20,15 @@ header,.header,.header-container{position:relative}
 .site-navigation .nav-links>li{width:100%}
 .site-navigation .nav-links>li>a,.site-navigation .dropdown-toggle{display:flex;width:100%;align-items:center;justify-content:space-between;padding:.65rem 0;border-bottom:1px solid #f1f5f9;font-size:1.02rem}
 .site-navigation .dropdown-menu{position:static;transform:none;min-width:0;width:100%;padding:.3rem 0 .3rem .8rem;border:0;border-radius:0;background:#f8fafc;box-shadow:none}
+.site-navigation .dropdown-menu::before{display:none}
 .site-navigation .dropdown-menu a{padding:.55rem .7rem;white-space:normal}
 .site-navigation .nav-cta{justify-content:center!important;margin-top:.35rem;border-bottom:0!important}
 }
+
+/* Compact factual tables used by buying and qualification guides. */
+.decision-table-wrap{max-width:100%;overflow-x:auto;margin:1.25rem 0}
+.decision-table{width:100%;border-collapse:collapse;background:#fff;font-size:.95rem}
+.decision-table th,.decision-table td{padding:.8rem .75rem;border:1px solid #dfe7e2;text-align:left;vertical-align:top}
+.decision-table th{background:#f4f9f6;color:#1f2933;font-weight:800}
+.decision-table tbody tr:nth-child(even){background:#fbfdfc}
+@media(max-width:620px){.decision-table{min-width:680px}.decision-table th,.decision-table td{padding:.68rem .6rem}}

@@ -10,6 +10,41 @@
     "name": "Fully Managed Vending",
     "url": "https://vendingni.com/vending-solutions/",
     "model": "Managed vending service for qualifying locations",
+    "managedServices": {
+      "siteAssessment": true,
+      "machineProvision": true,
+      "installation": true,
+      "replenishment": true,
+      "productManagement": true,
+      "maintenance": true,
+      "technicalSupport": true,
+      "remoteMonitoring": {
+        "availability": "Available with compatible machines and systems",
+        "notGuaranteedForEveryInstallation": true
+      }
+    },
+    "qualificationBasis": [
+      "staff_population",
+      "resident_population",
+      "room_count",
+      "membership",
+      "footfall",
+      "shift_patterns",
+      "operating_hours",
+      "site_type",
+      "placement",
+      "service_access"
+    ],
+    "typicalGuidance": [
+      { "siteType": "workplace", "approximatePopulation": 40, "unit": "people", "approximate": true, "assessmentRequired": true },
+      { "siteType": "hotel", "approximatePopulation": 50, "unit": "rooms", "approximate": true, "assessmentRequired": true },
+      { "siteType": "apartment_building", "approximatePopulation": 200, "unit": "apartments", "approximate": true, "assessmentRequired": true }
+    ],
+    "paymentOptions": {
+      "conditional": true,
+      "availability": "Depends on compatible machine and payment reader",
+      "methods": ["cashless", "contactless", "debit_card", "credit_card", "Apple Pay", "Google Pay", "cash_on_selected_equipment"]
+    },
     "regions": [
       "Northern Ireland",
       "Republic of Ireland"
@@ -34,6 +69,26 @@
     { "name": "Apartment buildings", "url": "https://vendingni.com/vending-machine-for-apartment-building/" },
     { "name": "Airports", "url": "https://vendingni.com/airport-vending-machine/" }
   ],
+  "enquiry": {
+    "primaryContact": "info@vendingni.com",
+    "assessmentRequired": true,
+    "usefulInformation": [
+      "name",
+      "organisation",
+      "email",
+      "location",
+      "postcode",
+      "site_type",
+      "staff_or_population",
+      "room_or_unit_count_where_relevant",
+      "footfall",
+      "operating_hours",
+      "shift_pattern",
+      "preferred_products",
+      "machine_preferences",
+      "proposed_placement"
+    ]
+  },
   "geographicPages": [
     { "name": "Northern Ireland", "url": "https://vendingni.com/vending-machines-in-northern-ireland/" },
     { "name": "Belfast", "url": "https://vendingni.com/vending-machines-in-belfast/" },

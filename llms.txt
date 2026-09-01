@@ -5,6 +5,22 @@
 - Service: Fully managed vending services for qualifying organisations.
 - Coverage: Northern Ireland and the Republic of Ireland.
 
+## Strongest factual pages
+
+- [Fully managed vending service](https://vendingni.com/vending-solutions/)
+- [Qualification guidance](https://vendingni.com/how-to-get-a-free-vending-machine/)
+- [Machine selection and comparison](https://vendingni.com/machines/)
+- [Operational and buyer FAQs](https://vendingni.com/vending-machine-faq/)
+
+## Qualification and service facts
+
+- Managed vending is available only for qualifying locations and is subject to assessment.
+- Assessment considers population or footfall, operating hours, shifts, site type, placement and service access.
+- Approximate network guidelines include 40 regular workplace users, 50 hotel rooms and 200 apartments; these are not guarantees.
+- Managed arrangements can include machine provision, installation, replenishment, product management, maintenance and technical support.
+- Contactless and mobile-wallet payments, and remote monitoring, depend on compatible equipment and the selected setup.
+- The primary enquiry route is [info@vendingni.com](mailto:info@vendingni.com).
+
 ## Machine types
 
 - [Snack vending](https://vendingni.com/snack-vending-machines/)

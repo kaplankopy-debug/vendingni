@@ -9,6 +9,10 @@
     "robots": "https://vendingni.com/robots.txt",
     "llms": "https://vendingni.com/llms.txt",
     "services": "https://vendingni.com/data/services.json"
+    ,"qualification": "https://vendingni.com/how-to-get-a-free-vending-machine/"
+    ,"machines": "https://vendingni.com/machines/"
+    ,"vendingSolutions": "https://vendingni.com/vending-solutions/"
+    ,"faq": "https://vendingni.com/vending-machine-faq/"
   },
   "contentCategories": [
     "vending machines",
@@ -27,5 +31,23 @@
     "faq": "https://vendingni.com/vending-machine-faq/",
     "about": "https://vendingni.com/about/",
     "contact": "https://vendingni.com/contact/"
+  },
+  "sectorPages": {
+    "offices": "https://vendingni.com/vending-machines-for-an-office/",
+    "gyms": "https://vendingni.com/vending-machine-for-gym/",
+    "factoriesAndWarehouses": "https://vendingni.com/vending-machine-for-a-factory/",
+    "hotels": "https://vendingni.com/vending-machines-in-hotels/",
+    "hospitals": "https://vendingni.com/vending-machines-in-hospitals/",
+    "schools": "https://vendingni.com/school-vending-machine/",
+    "nursingAndCareHomes": "https://vendingni.com/vending-machines-for-nursing-homes/",
+    "sharedWorkspaces": "https://vendingni.com/vending-machines-for-shared-working-spaces/",
+    "apartmentBuildings": "https://vendingni.com/vending-machine-for-apartment-building/",
+    "airports": "https://vendingni.com/airport-vending-machine/"
+  },
+  "geographicPages": {
+    "northernIreland": "https://vendingni.com/vending-machines-in-northern-ireland/",
+    "belfast": "https://vendingni.com/vending-machines-in-belfast/",
+    "republicOfIreland": "https://vendingni.com/vending-machines-ireland/",
+    "dublin": "https://vendingni.com/dublin-vending-solutions/"
   }
 }
