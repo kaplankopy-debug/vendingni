@@ -1,0 +1,31 @@
+{
+  "canonicalDomain": "https://vendingni.com/",
+  "organisation": {
+    "name": "VendingNI",
+    "contactEmail": "info@vendingni.com"
+  },
+  "discovery": {
+    "sitemap": "https://vendingni.com/sitemap.xml",
+    "robots": "https://vendingni.com/robots.txt",
+    "llms": "https://vendingni.com/llms.txt",
+    "services": "https://vendingni.com/data/services.json"
+  },
+  "contentCategories": [
+    "vending machines",
+    "vending solutions by sector",
+    "geographic service coverage",
+    "commercial service information",
+    "vending guides and FAQ"
+  ],
+  "importantPages": {
+    "home": "https://vendingni.com/",
+    "machines": "https://vendingni.com/machines/",
+    "vendingSolutions": "https://vendingni.com/vending-solutions/",
+    "northernIreland": "https://vendingni.com/vending-machines-in-northern-ireland/",
+    "republicOfIreland": "https://vendingni.com/vending-machines-ireland/",
+    "freeManagedVending": "https://vendingni.com/how-to-get-a-free-vending-machine/",
+    "faq": "https://vendingni.com/vending-machine-faq/",
+    "about": "https://vendingni.com/about/",
+    "contact": "https://vendingni.com/contact/"
+  }
+}

@@ -1,0 +1,110 @@
+openapi: 3.1.0
+info:
+  title: VendingNI Future Agent API
+  version: 0.1.0-planned
+  description: |
+    Planned interface design for a future VendingNI agent API.
+    This API is not currently operational. The VendingNI website is hosted on
+    static GitHub Pages and these paths do not exist as working endpoints.
+  x-status: planned
+  x-operational: false
+x-backend-requirements:
+  status: not-implemented
+  description: |
+    A server-side or serverless backend, input validation, abuse protection,
+    secure enquiry delivery, monitoring and operational ownership are required
+    before any endpoint described here can be deployed.
+paths:
+  /api/check-eligibility:
+    post:
+      operationId: checkSiteEligibility
+      summary: Check whether a site may be suitable for managed vending
+      description: Planned operation. A future backend must implement and maintain the actual eligibility logic.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EligibilityRequest'
+      responses:
+        '200':
+          description: Planned eligibility assessment response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/EligibilityResponse'
+  /api/enquiries:
+    post:
+      operationId: submitVendingEnquiry
+      summary: Submit a vending enquiry
+      description: Planned operation. A future backend must validate, protect and securely deliver enquiry data.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EnquiryRequest'
+      responses:
+        '202':
+          description: Planned acknowledgement that an enquiry was accepted for processing
+  /api/services:
+    get:
+      operationId: getServices
+      summary: Get managed vending service information
+      description: Planned dynamic equivalent of the current static /data/services.json resource.
+      responses:
+        '200':
+          description: Planned service information response
+  /api/sectors:
+    get:
+      operationId: getSectors
+      summary: Get supported sector information
+      description: Planned operation returning sector names and canonical page URLs.
+      responses:
+        '200':
+          description: Planned sector information response
+components:
+  schemas:
+    EligibilityRequest:
+      type: object
+      additionalProperties: false
+      required: [location, siteType, approximatePeople]
+      properties:
+        location:
+          type: string
+        siteType:
+          type: string
+        approximatePeople:
+          type: integer
+          minimum: 0
+        requirements:
+          type: string
+    EligibilityResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum: [potentially_suitable, more_information_required, not_currently_suitable]
+        message:
+          type: string
+    EnquiryRequest:
+      type: object
+      additionalProperties: false
+      required: [name, organisation, contactEmail, location, siteType]
+      properties:
+        name:
+          type: string
+        organisation:
+          type: string
+        contactEmail:
+          type: string
+          format: email
+        location:
+          type: string
+        siteType:
+          type: string
+        approximatePeople:
+          type: integer
+          minimum: 0
+        requirements:
+          type: string

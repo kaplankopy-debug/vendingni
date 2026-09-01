@@ -1,0 +1,49 @@
+# VendingNI
+
+- Canonical website: https://vendingni.com/
+- Contact: info@vendingni.com
+- Service: Fully managed vending services for qualifying organisations.
+- Coverage: Northern Ireland and the Republic of Ireland.
+
+## Machine types
+
+- [Snack vending](https://vendingni.com/snack-vending-machines/)
+- [Drinks vending](https://vendingni.com/drinks-vending-machines/)
+- [Combination vending](https://vendingni.com/combination-vending-machines/)
+- [Coffee vending](https://vendingni.com/coffee-vending-machines/)
+- [Cashless and contactless vending](https://vendingni.com/cashless-vending-machines/)
+
+## Vending solutions by sector
+
+- [All vending solutions](https://vendingni.com/vending-solutions/)
+- [Offices](https://vendingni.com/vending-machines-for-an-office/)
+- [Gyms](https://vendingni.com/vending-machine-for-gym/)
+- [Factories and warehouses](https://vendingni.com/vending-machine-for-a-factory/)
+- [Hotels](https://vendingni.com/vending-machines-in-hotels/)
+- [Hospitals](https://vendingni.com/vending-machines-in-hospitals/)
+- [Schools](https://vendingni.com/school-vending-machine/)
+- [Nursing and care homes](https://vendingni.com/vending-machines-for-nursing-homes/)
+- [Shared workspaces](https://vendingni.com/vending-machines-for-shared-working-spaces/)
+- [Apartment buildings](https://vendingni.com/vending-machine-for-apartment-building/)
+- [Airports](https://vendingni.com/airport-vending-machine/)
+
+## Geographic pages
+
+- [Northern Ireland](https://vendingni.com/vending-machines-in-northern-ireland/)
+- [Belfast](https://vendingni.com/vending-machines-in-belfast/)
+- [Republic of Ireland](https://vendingni.com/vending-machines-ireland/)
+- [Dublin](https://vendingni.com/dublin-vending-solutions/)
+
+## Important pages and data
+
+- [Machines](https://vendingni.com/machines/)
+- [How to get a free managed vending machine](https://vendingni.com/how-to-get-a-free-vending-machine/)
+- [Vending machine hire or rental](https://vendingni.com/vending-machine-hire-or-rental/)
+- [Repairs and servicing](https://vendingni.com/vending-machine-repairs/)
+- [FAQ](https://vendingni.com/vending-machine-faq/)
+- [About](https://vendingni.com/about/)
+- [Contact](https://vendingni.com/contact/)
+- [Machine-readable service data](https://vendingni.com/data/services.json)
+- [Machine-readable site manifest](https://vendingni.com/data/site.json)
+- [Sitemap](https://vendingni.com/sitemap.xml)
+- [Robots](https://vendingni.com/robots.txt)

@@ -1,0 +1,51 @@
+{
+  "provider": {
+    "name": "VendingNI",
+    "url": "https://vendingni.com/",
+    "contact": {
+      "email": "info@vendingni.com"
+    }
+  },
+  "service": {
+    "name": "Fully Managed Vending",
+    "url": "https://vendingni.com/vending-solutions/",
+    "model": "Managed vending service for qualifying locations",
+    "regions": [
+      "Northern Ireland",
+      "Republic of Ireland"
+    ],
+    "machineTypes": [
+      { "name": "Snack vending", "url": "https://vendingni.com/snack-vending-machines/" },
+      { "name": "Drinks vending", "url": "https://vendingni.com/drinks-vending-machines/" },
+      { "name": "Combination vending", "url": "https://vendingni.com/combination-vending-machines/" },
+      { "name": "Coffee vending", "url": "https://vendingni.com/coffee-vending-machines/" },
+      { "name": "Cashless and contactless vending", "url": "https://vendingni.com/cashless-vending-machines/" }
+    ]
+  },
+  "sectors": [
+    { "name": "Offices", "url": "https://vendingni.com/vending-machines-for-an-office/" },
+    { "name": "Gyms", "url": "https://vendingni.com/vending-machine-for-gym/" },
+    { "name": "Factories and warehouses", "url": "https://vendingni.com/vending-machine-for-a-factory/" },
+    { "name": "Hotels", "url": "https://vendingni.com/vending-machines-in-hotels/" },
+    { "name": "Hospitals", "url": "https://vendingni.com/vending-machines-in-hospitals/" },
+    { "name": "Schools", "url": "https://vendingni.com/school-vending-machine/" },
+    { "name": "Nursing and care homes", "url": "https://vendingni.com/vending-machines-for-nursing-homes/" },
+    { "name": "Shared workspaces", "url": "https://vendingni.com/vending-machines-for-shared-working-spaces/" },
+    { "name": "Apartment buildings", "url": "https://vendingni.com/vending-machine-for-apartment-building/" },
+    { "name": "Airports", "url": "https://vendingni.com/airport-vending-machine/" }
+  ],
+  "geographicPages": [
+    { "name": "Northern Ireland", "url": "https://vendingni.com/vending-machines-in-northern-ireland/" },
+    { "name": "Belfast", "url": "https://vendingni.com/vending-machines-in-belfast/" },
+    { "name": "Republic of Ireland", "url": "https://vendingni.com/vending-machines-ireland/" },
+    { "name": "Dublin", "url": "https://vendingni.com/dublin-vending-solutions/" }
+  ],
+  "usefulUrls": {
+    "machines": "https://vendingni.com/machines/",
+    "vendingSolutions": "https://vendingni.com/vending-solutions/",
+    "freeManagedVending": "https://vendingni.com/how-to-get-a-free-vending-machine/",
+    "faq": "https://vendingni.com/vending-machine-faq/",
+    "about": "https://vendingni.com/about/",
+    "contact": "https://vendingni.com/contact/"
+  }
+}

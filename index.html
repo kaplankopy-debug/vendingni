@@ -29,14 +29,22 @@
         "email": "info@vendingni.com",
         "logo": {
           "@type": "ImageObject",
+          "@id": "https://vendingni.com/#logo",
           "url": "https://vendingni.com/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png"
         },
         "image": "https://vendingni.com/wp-content/uploads/2023/01/2018_2526_0187_2.png",
         "description": "Fully managed vending machine services for qualifying organisations across Northern Ireland and the Republic of Ireland.",
         "areaServed": [
           { "@type": "AdministrativeArea", "name": "Northern Ireland" },
-          { "@type": "Country", "name": "Ireland" }
+          { "@type": "Country", "name": "Republic of Ireland" }
         ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales and enquiries",
+          "email": "info@vendingni.com",
+          "availableLanguage": "English"
+        },
+        "hasOfferCatalog": { "@id": "https://vendingni.com/#vending-machine-catalog" },
         "sameAs": [
           "https://www.linkedin.com/company/vendingni",
           "https://instagram.com/vendingni"
@@ -47,14 +55,77 @@
         "@id": "https://vendingni.com/#website",
         "url": "https://vendingni.com/",
         "name": "VendingNI",
-        "publisher": {
-          "@id": "https://vendingni.com/#organization"
-        }
+        "publisher": { "@id": "https://vendingni.com/#organization" },
+        "about": { "@id": "https://vendingni.com/#managed-vending-service" }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://vendingni.com/#managed-vending-service",
+        "name": "Fully Managed Vending",
+        "serviceType": "Fully managed vending machine service",
+        "url": "https://vendingni.com/vending-solutions/",
+        "description": "Machine supply, installation, stocking, servicing and maintenance for qualifying organisations.",
+        "provider": { "@id": "https://vendingni.com/#organization" },
+        "areaServed": [
+          { "@type": "AdministrativeArea", "name": "Northern Ireland" },
+          { "@type": "Country", "name": "Republic of Ireland" }
+        ],
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Qualifying organisations, workplaces and venues"
+        },
+        "hasOfferCatalog": { "@id": "https://vendingni.com/#vending-machine-catalog" }
+      },
+      {
+        "@type": "OfferCatalog",
+        "@id": "https://vendingni.com/#vending-machine-catalog",
+        "name": "Vending machine categories",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Snack vending",
+              "url": "https://vendingni.com/snack-vending-machines/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Drinks vending",
+              "url": "https://vendingni.com/drinks-vending-machines/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Combination vending",
+              "url": "https://vendingni.com/combination-vending-machines/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Coffee vending",
+              "url": "https://vendingni.com/coffee-vending-machines/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cashless and contactless vending",
+              "url": "https://vendingni.com/cashless-vending-machines/"
+            }
+          }
+        ]
       }
     ]
   }
   </script>
-
   <style>
     :root {
       --wp--preset--color--vivid-green-cyan: #3ad06e;
@@ -249,7 +320,7 @@
         <img src="https://vendingni.com/wp-content/uploads/2023/01/Screenshot-2023-01-30-at-16.14.52.png" width="215" height="216" alt="VendingNI" fetchpriority="high" decoding="async">
       </a>
 
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">☰</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false" type="button" aria-controls="navLinks">☰</button>
 
       <nav class="site-navigation" aria-label="Primary navigation"><ul class="nav-links" id="navLinks"><li><a href="/">Home</a></li><li><a href="/machines/">Machines</a></li><li class="has-dropdown"><button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="solutionsMenu">Vending Solutions <span class="dropdown-arrow" aria-hidden="true">▼</span></button><ul class="dropdown-menu" id="solutionsMenu"><li><a href="/vending-solutions/">All Vending Solutions</a></li><li><a href="/vending-machines-for-an-office/">Offices</a></li><li><a href="/vending-machine-for-gym/">Gyms</a></li><li><a href="/vending-machine-for-a-factory/">Factories &amp; Warehouses</a></li><li><a href="/vending-machines-in-hotels/">Hotels</a></li><li><a href="/vending-machines-in-hospitals/">Hospitals</a></li><li><a href="/school-vending-machine/">Schools</a></li><li><a href="/vending-machines-for-nursing-homes/">Nursing &amp; Care Homes</a></li><li><a href="/vending-machines-for-shared-working-spaces/">Shared Workspaces</a></li><li><a href="/vending-machine-for-apartment-building/">Apartment Buildings</a></li><li><a href="/airport-vending-machine/">Airports</a></li></ul></li><li><a href="/about/">About</a></li><li><a class="nav-cta" href="/how-to-get-a-free-vending-machine/">Get a Free Machine</a></li></ul></nav>
     </div>
