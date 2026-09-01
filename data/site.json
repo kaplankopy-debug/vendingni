@@ -51,5 +51,10 @@
     "belfast": "https://vendingni.com/vending-machines-in-belfast/",
     "republicOfIreland": "https://vendingni.com/vending-machines-ireland/",
     "dublin": "https://vendingni.com/dublin-vending-solutions/"
+  },
+  "tools": {
+    "eligibilityChecker": "https://vendingni.com/free-vending-machine-eligibility-checker/",
+    "machineSelector": "https://vendingni.com/vending-machine-selector/",
+    "costComparisonCalculator": "https://vendingni.com/vending-machine-cost-calculator/"
   }
 }

@@ -141,5 +141,11 @@
     "faq": "https://vendingni.com/vending-machine-faq/",
     "about": "https://vendingni.com/about/",
     "contact": "https://vendingni.com/contact/"
+  },
+  "tools": {
+    "eligibilityChecker": "https://vendingni.com/free-vending-machine-eligibility-checker/",
+    "machineSelector": "https://vendingni.com/vending-machine-selector/",
+    "costComparisonCalculator": "https://vendingni.com/vending-machine-cost-calculator/",
+    "outputStatus": "Indicative guidance only; results are not approval, a contractual offer or a price quotation"
   }
 }

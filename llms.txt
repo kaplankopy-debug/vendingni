@@ -68,3 +68,9 @@
 - [Machine-readable site manifest](https://vendingni.com/data/site.json)
 - [Sitemap](https://vendingni.com/sitemap.xml)
 - [Robots](https://vendingni.com/robots.txt)
+
+## Interactive vending tools
+
+- [Free vending machine eligibility checker](https://vendingni.com/free-vending-machine-eligibility-checker/) — indicative, permissive site-fit guidance; not an approval.
+- [Vending machine selector](https://vendingni.com/vending-machine-selector/) — indicative setup recommendation subject to site assessment.
+- [Managed vs buy vs rent cost calculator](https://vendingni.com/vending-machine-cost-calculator/) — structural comparison without assumed equipment prices or quotes.
