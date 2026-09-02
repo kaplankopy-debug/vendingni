@@ -50,3 +50,11 @@ header,.header,.header-container{position:relative}
 .client-logo-item img.nifa-logo{max-height:86px!important}
 .client-logo-item img.titanic-logo{max-height:69px!important}
 }
+
+/* Keep popular product-brand logos balanced and tidy. */
+.brands-section .brand-grid{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr));gap:1.35rem!important;align-items:center;justify-items:center;max-width:1050px!important}
+.brands-section .brand-grid img{width:125px!important;height:70px!important;max-width:100%!important;max-height:none!important;object-fit:contain!important;margin:0 auto!important}
+@media(max-width:768px){
+.brands-section .brand-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.1rem .8rem!important}
+.brands-section .brand-grid img{width:105px!important;height:62px!important}
+}
