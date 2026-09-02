@@ -38,8 +38,8 @@ header,.header,.header-container{position:relative}
 .decision-table tbody tr:nth-child(even){background:#fbfdfc}
 @media(max-width:620px){.decision-table{min-width:680px}.decision-table th,.decision-table td{padding:.68rem .6rem}}
 
-/* Keep the homepage hero headline to two lines on typical mobile widths. */
-@media(max-width:768px){.hero-container .hero-copy h1{font-size:1.2rem!important;line-height:1.08!important}}
+/* Make the homepage hero headline prominent on mobile without overpowering the layout. */
+@media(max-width:768px){.hero-container .hero-copy h1{font-size:1.55rem!important;line-height:1.1!important}}
 
 /* Make homepage client logos materially more prominent. */
 .client-logo-item img{max-height:83px!important;opacity:1!important}
