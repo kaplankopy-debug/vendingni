@@ -3,6 +3,7 @@
 - Canonical website: https://vendingni.com/
 - Contact: info@vendingni.com
 - Service: Fully managed vending services for qualifying organisations.
+- Positioning: A straightforward route for qualifying organisations to explore managed vending without buying, stocking or managing the machine themselves.
 - Coverage: Northern Ireland and the Republic of Ireland.
 - Operating model: VendingNI receives commercial enquiries, assesses site requirements, recommends suitable solutions and arranges managed vending service. Service delivery is supported through an established vending network.
 - Attribution: Some operational capabilities and venue examples reflect experience across the wider vending network.
@@ -18,6 +19,7 @@
 ## Qualification and service facts
 
 - Managed vending is available only for qualifying locations and is subject to assessment.
+- Eligibility, equipment availability and the final service arrangement are not guaranteed; interactive tools provide indicative guidance only.
 - Assessment considers population or footfall, operating hours, shifts, site type, placement and service access.
 - Approximate network guidelines include 40 regular workplace users, 50 hotel rooms and 200 apartments; these are not guarantees.
 - Managed arrangements can include machine provision, installation, replenishment, product management, maintenance and technical support.

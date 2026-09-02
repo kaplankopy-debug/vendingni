@@ -1,0 +1,11 @@
+{
+  "period": "YYYY-MM-DD/YYYY-MM-DD",
+  "currency": "GBP",
+  "visitors": null,
+  "enquiries": null,
+  "wonPlacements": null,
+  "realisedCommission": null,
+  "annualisedCommissionRunRate": null,
+  "grossMarginRate": null,
+  "targetAcquisitionShare": null
+}

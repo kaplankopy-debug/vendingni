@@ -10,6 +10,12 @@
     "name": "Fully Managed Vending",
     "url": "https://vendingni.com/vending-solutions/",
     "model": "Managed vending service for qualifying locations",
+    "publicPositioning": "A straightforward route for qualifying organisations to explore fully managed vending without buying, stocking or managing the machine themselves",
+    "positioningConditions": [
+      "Qualification and site assessment are required",
+      "Availability and the final service arrangement depend on the site and vending network",
+      "Interactive tool results are indicative and are not approval, a guarantee or a quotation"
+    ],
     "deliveryModel": {
       "customerFacingProvider": "VendingNI",
       "fulfilment": "Service delivery is supported through an established vending network",

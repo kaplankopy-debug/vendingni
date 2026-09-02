@@ -2,7 +2,9 @@
   "canonicalDomain": "https://vendingni.com/",
   "organisation": {
     "name": "VendingNI",
-    "contactEmail": "info@vendingni.com"
+    "contactEmail": "info@vendingni.com",
+    "publicPositioning": "A straightforward route for qualifying organisations to arrange fully managed vending without buying, stocking or managing the machine themselves",
+    "qualificationRequired": true
   },
   "discovery": {
     "sitemap": "https://vendingni.com/sitemap.xml",

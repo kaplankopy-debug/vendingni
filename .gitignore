@@ -1,0 +1,2 @@
+internal/perry/data/*
+!internal/perry/data/.gitkeep
