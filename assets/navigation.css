@@ -39,4 +39,4 @@ header,.header,.header-container{position:relative}
 @media(max-width:620px){.decision-table{min-width:680px}.decision-table th,.decision-table td{padding:.68rem .6rem}}
 
 /* Keep the homepage hero headline to two lines on typical mobile widths. */
-@media(max-width:768px){.hero-container .hero-copy h1{font-size:1.1rem}}
+@media(max-width:768px){body .hero .hero-container .hero-copy h1{font-size:1.2rem!important;line-height:1.15!important}}
