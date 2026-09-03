@@ -94,3 +94,37 @@ footer.global-footer h2{font-size:1.55rem!important}
 footer.global-footer .global-footer-links a{display:block!important}
 footer.global-footer .btn{width:min(100%,360px)!important}
 }
+
+/* Sitewide visual polish: consistent spacing, hierarchy, cards and interactions. */
+html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body{background:#fff;color:#2d3748}
+header{background:#fff!important;border-bottom:1px solid #e8edf0!important;box-shadow:0 1px 0 rgba(40,48,61,.02)}
+.site-navigation .nav-links>li>a:not(.nav-cta),.site-navigation .dropdown-toggle{transition:color .18s ease,opacity .18s ease}
+.site-navigation .nav-links>li>a:not(.nav-cta):hover,.site-navigation .nav-links>li>a:not(.nav-cta):focus,.site-navigation .dropdown-toggle:hover,.site-navigation .dropdown-toggle:focus{color:#168a43!important}
+.btn,.site-navigation .nav-cta,footer.global-footer .btn{transition:transform .18s ease,box-shadow .18s ease,opacity .18s ease!important;box-shadow:0 5px 14px rgba(58,208,110,.18)}
+.btn:hover,.site-navigation .nav-cta:hover,footer.global-footer .btn:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(58,208,110,.24);opacity:1!important;text-decoration:none!important}
+a:focus-visible,button:focus-visible{outline:3px solid rgba(58,208,110,.45)!important;outline-offset:3px!important;border-radius:6px}
+.section h2,.features h2,.coverage-heading h2,.sectors h2,.brands-section h2{letter-spacing:-.015em}
+.section>div>h2,.section .container>h2{margin-bottom:1.15rem}
+.text p,.card p,.coverage-card p{line-height:1.7}
+.card,.coverage-card,.gallery-card{border-color:#e4e9ed!important;box-shadow:0 6px 20px rgba(40,48,61,.045);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+@media(hover:hover) and (pointer:fine){.card:hover,.coverage-card:hover,.gallery-card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(40,48,61,.075);border-color:#d8e1dc!important}}
+.card h3,.coverage-card h3{letter-spacing:-.01em}
+.trust-title{line-height:1.35}
+.hero p,.lead{line-height:1.65}
+.hero img,.machine-img{filter:drop-shadow(0 12px 18px rgba(40,48,61,.08))}
+.breadcrumbs{line-height:1.45}
+.global-footer-links a{transition:color .18s ease}
+footer.global-footer .global-footer-links a:hover,footer.global-footer .global-footer-links a:focus{color:#fff!important}
+@media(max-width:860px){
+.site-navigation .nav-links{padding-top:.8rem!important;padding-bottom:1rem!important}
+.site-navigation .nav-links>li>a,.site-navigation .dropdown-toggle{min-height:44px}
+.section{padding-top:3rem!important;padding-bottom:3rem!important}
+.card,.coverage-card{padding:1.35rem!important}
+}
+@media(max-width:520px){
+.top-contact-bar{font-size:.84rem!important;padding:.28rem .75rem!important}
+.hero,.section,.features,.coverage-section,.sectors,.brands-section{padding-left:1rem!important;padding-right:1rem!important}
+.global-footer-links{grid-template-columns:1fr!important;gap:.6rem!important}
+footer.global-footer .global-footer-copy{max-width:320px!important;margin-left:auto!important;margin-right:auto!important;line-height:1.55!important}
+}
