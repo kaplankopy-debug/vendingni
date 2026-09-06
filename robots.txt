@@ -1,13 +1,25 @@
 User-agent: *
 Allow: /
+Disallow: /internal/
+Disallow: /docs/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
 
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /internal/
+Disallow: /docs/
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /internal/
+Disallow: /docs/
 
 User-agent: GPTBot
 Allow: /
+Disallow: /internal/
+Disallow: /docs/
 
 Sitemap: https://vendingni.com/sitemap.xml
