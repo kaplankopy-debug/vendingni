@@ -1,6 +1,0 @@
-# Declarative 301 map for hosts that honour a Netlify/Cloudflare Pages _redirects file.
-# GitHub Pages (the current live origin) ignores this file and still serves the HTML stub
-# at /vending-machine-hire-near-me/ (noindex + canonical + meta refresh + JS replace).
-# A true HTTP 301 on the live domain needs a CDN/proxy rule in front of GitHub Pages.
-/vending-machine-hire-near-me    /vending-machine-hire-or-rental/    301
-/vending-machine-hire-near-me/   /vending-machine-hire-or-rental/    301
