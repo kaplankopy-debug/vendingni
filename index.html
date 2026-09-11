@@ -8,6 +8,7 @@
   <meta name="description" content="VendingNI supplies fully managed vending machines across Northern Ireland, including Belfast. Snack, drinks, coffee, stocking, servicing and maintenance for qualifying workplaces.">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="https://vendingni.com/">
+  <link rel="preload" as="image" href="/wp-content/uploads/2023/01/2018_2526_0187_2-768x891.png" fetchpriority="high">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="VendingNI">
@@ -214,7 +215,7 @@
     .benefits-list li { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.85rem; font-size: 0.98rem; }
     .checkmark { color: var(--primary); font-weight: bold; font-size: 1.2rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
 
-    .onsite-section { padding: 2.5rem 1.25rem; background: var(--light-bg); border-bottom: 1px solid var(--border); }
+    .onsite-section { padding: 2.5rem 1.25rem; background: var(--light-bg); border-bottom: 1px solid var(--border); content-visibility: auto; contain-intrinsic-size: 700px; }
     .gallery-carousel { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; padding-bottom: 0.5rem; max-width: 1200px; margin: 0 auto; scrollbar-width: none; }
     .gallery-carousel::-webkit-scrollbar { display: none; }
     .gallery-card { flex: 0 0 280px; scroll-snap-align: start; border-radius: var(--radius); overflow: hidden; background: #fff; border: 1px solid var(--border); }
@@ -225,11 +226,11 @@
     .partner-text h2 { font-size: 1.3rem; color: var(--dark); margin-bottom: 0.5rem; }
     .partner-text p { font-size: 0.95rem; color: var(--text-muted); }
 
-    .brands-section { padding: 3rem 1.25rem; background: #fff; border-top: 1px solid var(--border); text-align: center; }
+    .brands-section { padding: 3rem 1.25rem; background: #fff; border-top: 1px solid var(--border); text-align: center; content-visibility: auto; contain-intrinsic-size: 420px; }
     .brand-grid { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 2rem; max-width: 1000px; margin: 1.5rem auto 0; }
     .brand-grid img { max-height: 40px; width: auto; }
 
-    .features { padding: 3.5rem 1.25rem; max-width: 1000px; margin: 0 auto; }
+    .features { padding: 3.5rem 1.25rem; max-width: 1000px; margin: 0 auto; content-visibility: auto; contain-intrinsic-size: 800px; }
     .grid-2x2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
     .card { border: 1px solid var(--border); border-radius: var(--radius); padding: 1.75rem; background: #fff; display: flex; gap: 1rem; align-items: flex-start; }
     .card-icon { width: 44px; height: 44px; flex-shrink: 0; }
@@ -252,7 +253,7 @@
     .sector-tags a { display: inline-block; background: var(--light-bg); padding: 0.5rem 1rem; border-radius: 20px; color: var(--text); border: 1px solid var(--border); font-size: 0.88rem; font-weight: 500; }
     .sector-tags a:hover { border-color: var(--primary); color: var(--primary); }
 
-    .process-section { padding: 3.5rem 1.25rem; max-width: 1000px; margin: 0 auto; }
+    .process-section { padding: 3.5rem 1.25rem; max-width: 1000px; margin: 0 auto; content-visibility: auto; contain-intrinsic-size: 650px; }
     .process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 1.75rem; }
     .process-step { border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; background: #fff; }
     .process-step strong { display: block; color: var(--dark); margin-bottom: 0.45rem; }
@@ -332,22 +333,22 @@
     <p class="trust-title" id="client-trust-heading">Organisations We've Worked With Include</p>
     <div class="client-scroll-container">
       <div class="client-logo-item">
-        <img src="nie1.jpg" alt="Northern Ireland Electricity Networks" fetchpriority="low" decoding="async">
+        <img src="nie1.jpg" alt="Northern Ireland Electricity Networks" loading="lazy" fetchpriority="low" decoding="async">
       </div>
       <div class="client-logo-item">
-        <img src="https://vendingni.com/wp-content/uploads/2024/02/zoo.png" alt="Belfast Zoo" fetchpriority="low" decoding="async">
+        <img src="https://vendingni.com/wp-content/uploads/2024/02/zoo.png" alt="Belfast Zoo" loading="lazy" fetchpriority="low" decoding="async">
       </div>
       <div class="client-logo-item">
-        <img src="ards.jpg" alt="Ards and North Down Borough Council" fetchpriority="low" decoding="async">
+        <img src="ards.jpg" alt="Ards and North Down Borough Council" loading="lazy" fetchpriority="low" decoding="async">
       </div>
       <div class="client-logo-item">
-        <img src="nifa.jpg" class="nifa-logo" alt="NIFA" fetchpriority="low" decoding="async">
+        <img src="nifa.jpg" class="nifa-logo" alt="NIFA" loading="lazy" fetchpriority="low" decoding="async">
       </div>
       <div class="client-logo-item">
-        <img src="titanic.jpg" class="titanic-logo" alt="Titanic Suites" fetchpriority="low" decoding="async">
+        <img src="titanic.jpg" class="titanic-logo" alt="Titanic Suites" loading="lazy" fetchpriority="low" decoding="async">
       </div>
       <div class="client-logo-item">
-        <img src="glasgiven.jpg" alt="Glasgiven Contracts Ltd" fetchpriority="low" decoding="async">
+        <img src="glasgiven.jpg" alt="Glasgiven Contracts Ltd" loading="lazy" fetchpriority="low" decoding="async">
       </div>
     </div>
   </section>
@@ -372,7 +373,7 @@
         </div>
 
         <div>
-          <img src="https://vendingni.com/wp-content/uploads/2023/01/2018_2526_0187_2.png" width="550" height="637" alt="Vending machines in Northern Ireland — snack and drink machine" fetchpriority="high" decoding="sync">
+          <img src="/wp-content/uploads/2023/01/2018_2526_0187_2-768x891.png" width="550" height="638" alt="Vending machines in Northern Ireland — snack and drink machine" fetchpriority="high" decoding="sync">
         </div>
       </div>
     </section>
@@ -389,13 +390,13 @@
           <img src="vending3.jpg" alt="Snack and drink vending machine at an onsite location" loading="lazy" decoding="async">
         </div>
         <div class="gallery-card">
-          <img src="https://vendingni.com/wp-content/uploads/2024/02/zoo1-1.png" alt="Combination snack and drink vending machine" loading="lazy" decoding="async">
+          <img src="/wp-content/uploads/2024/02/zoo1-1-226x300.png" width="226" height="300" alt="Combination snack and drink vending machine" loading="lazy" decoding="async">
         </div>
         <div class="gallery-card">
           <img src="https://vendingni.com/wp-content/uploads/2024/02/onsite-coffee-machine.jpg" alt="Commercial coffee vending machine" loading="lazy" decoding="async">
         </div>
         <div class="gallery-card">
-          <img src="https://vendingni.com/wp-content/uploads/2024/02/zoo2.png" alt="Modern workplace vending machine" loading="lazy" decoding="async">
+          <img src="/wp-content/uploads/2024/02/zoo2-229x300.png" width="229" height="300" alt="Modern workplace vending machine" loading="lazy" decoding="async">
         </div>
       </div>
     </section>
@@ -420,7 +421,7 @@
     <div style="padding: 0 1.25rem;" id="machines">
       <section class="partner-section">
         <div class="partner-logo">
-          <img src="https://vendingni.com/wp-content/uploads/2023/01/bd1aaf39-737f-4e68-ae8f-ffbfad457625.png" alt="SandenVendo" loading="lazy" decoding="async">
+          <img src="/wp-content/uploads/2023/01/bd1aaf39-737f-4e68-ae8f-ffbfad457625-287x300.png" width="287" height="300" alt="SandenVendo" loading="lazy" decoding="async">
         </div>
         <div class="partner-text">
           <h2>SandenVendo Vending Equipment</h2>
