@@ -87,7 +87,7 @@
   <div class="contact-intro">
     <p class="eyebrow">Contact VendingNI</p>
     <h1>Get in touch</h1>
-    <p>Tell us what you need and where your site is in Northern Ireland. We’ll use the details to assess the best vending option for your workplace or venue.</p>
+    <p>To enquire about a vending machine for your workplace or organisation, email <a href="mailto:info@vendingni.com">info@vendingni.com</a>.</p>
   </div>
 
   <div class="contact-grid">
@@ -121,35 +121,9 @@
     </section>
 
     <section class="contact-card" aria-labelledby="contact-title">
-      <h2 id="contact-title">Send an enquiry</h2>
-      <form id="contactForm" novalidate>
-        <div class="form-grid">
-          <div class="field">
-            <label for="firstName">First name</label>
-            <input id="firstName" name="firstName" autocomplete="given-name" required>
-          </div>
-          <div class="field">
-            <label for="lastName">Last name</label>
-            <input id="lastName" name="lastName" autocomplete="family-name">
-          </div>
-          <div class="field full">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" required>
-          </div>
-          <div class="field full">
-            <label for="postcode">Postcode / town</label>
-            <input id="postcode" name="postcode" autocomplete="postal-code" placeholder="e.g. Belfast, BT3">
-          </div>
-          <div class="field full">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Tell us about your site, approximate footfall and the type of vending you need."></textarea>
-          </div>
-        </div>
-        <div class="form-actions">
-          <button class="btn" type="submit">Send enquiry</button>
-        </div>
-        <p class="contact-email">Prefer email? <a href="mailto:info@vendingni.com">info@vendingni.com</a></p>
-      </form>
+      <h2 id="contact-title">Email VendingNI</h2>
+      <p>To enquire about a vending machine for your workplace or organisation, email us at:</p>
+      <p class="contact-email"><a href="mailto:info@vendingni.com">info@vendingni.com</a></p>
     </section>
   </div>
 
@@ -173,29 +147,5 @@
 </div>
 </footer>
 
-<script>
-(function(){
-  const form=document.getElementById('contactForm');
-  if(!form)return;
-  form.addEventListener('submit',function(e){
-    e.preventDefault();
-    const first=document.getElementById('firstName').value.trim();
-    const last=document.getElementById('lastName').value.trim();
-    const email=document.getElementById('email').value.trim();
-    const postcode=document.getElementById('postcode').value.trim();
-    const message=document.getElementById('message').value.trim();
-    if(!first||!email||!message){alert('Please complete your first name, email and message.');return;}
-    const subject='VendingNI enquiry from '+first+(last?' '+last:'');
-    const body=[
-      'Name: '+first+(last?' '+last:''),
-      'Email: '+email,
-      postcode?'Postcode / town: '+postcode:'',
-      '',
-      message
-    ].filter(Boolean).join('\n');
-    window.location.href='mailto:info@vendingni.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
-  });
-})();
-</script>
 </body>
 </html>
