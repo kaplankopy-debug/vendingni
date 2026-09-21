@@ -73,7 +73,6 @@ header,.header,.header-container{position:relative}
 .features[aria-labelledby="network-proof-heading"] #network-proof-heading{font-size:1.65rem!important;line-height:1.18!important;max-width:360px!important;margin:0 auto 1rem!important}
 .features[aria-labelledby="network-proof-heading"]>p:not(.trust-title){font-size:1rem!important;line-height:1.6!important;max-width:360px!important;margin:0 auto 1.4rem!important}
 .features[aria-labelledby="network-proof-heading"] .actions{display:grid!important;grid-template-columns:1fr!important;gap:.7rem!important;max-width:360px!important;width:100%!important}
-.features[aria-labelledby="network-proof-heading"] .actions .btn{width:100%!important;min-height:52px!important;padding:.85rem 1rem!important}
 .features[aria-labelledby="network-proof-heading"] .actions .text-link{width:100%!important;white-space:normal!important;padding:.25rem .5rem!important;text-align:center!important}
 }
 
