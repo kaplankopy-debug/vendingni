@@ -213,6 +213,8 @@
 
     .benefits-list { list-style: none; margin-bottom: 2rem; }
     .benefits-list li { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.85rem; font-size: 0.98rem; }
+    /* Keep SEO hrefs; match sibling bullet text colour (global `a` uses brand green). */
+    .benefits-list a { color: inherit; }
     .checkmark { color: var(--primary); font-weight: bold; font-size: 1.2rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
 
     .onsite-section { padding: 2.5rem 1.25rem; background: var(--light-bg); border-bottom: 1px solid var(--border); content-visibility: auto; contain-intrinsic-size: 700px; }
