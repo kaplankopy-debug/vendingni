@@ -14,7 +14,7 @@
     "positioningConditions": [
       "Qualification and site assessment are required",
       "Availability and the final service arrangement depend on the site and vending network",
-      "Interactive tool results are indicative and are not approval, a guarantee or a quotation"
+      "Interactive tool results are indicative and are not approval, a guarantee or a price"
     ],
     "deliveryModel": {
       "customerFacingProvider": "VendingNI",
@@ -155,6 +155,6 @@
     "eligibilityChecker": "https://vendingni.com/free-vending-machine-eligibility-checker/",
     "machineSelector": "https://vendingni.com/vending-machine-selector/",
     "costComparisonCalculator": "https://vendingni.com/vending-machine-cost-calculator/",
-    "outputStatus": "Indicative guidance only; results are not approval, a contractual offer or a price quotation"
+    "outputStatus": "Indicative guidance only; results are not approval, a contractual offer or a price"
   }
 }

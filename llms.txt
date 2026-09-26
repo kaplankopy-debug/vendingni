@@ -2,6 +2,7 @@
 
 - Canonical website: https://vendingni.com/
 - Contact: info@vendingni.com
+- Last updated: 2026-09-26
 - Service: Fully managed vending services for qualifying organisations.
 - Positioning: A straightforward route for qualifying organisations to explore managed vending without buying, stocking or managing the machine themselves.
 - Coverage: across the UK (England, Scotland, Wales and Northern Ireland). Northern Ireland is the home region, including Belfast, Antrim, Lisburn, Dungannon and Mallusk. Service coverage in the Republic of Ireland continues as the Ireland pages state.
@@ -15,6 +16,9 @@
 - [Machine selection and comparison](https://vendingni.com/machines/)
 - [Operational and buyer FAQs](https://vendingni.com/vending-machine-faq/)
 - [Managed vending experience across workplaces and venues](https://vendingni.com/vending-network-experience/)
+- [UK-wide fully managed vending](https://vendingni.com/uk/)
+- [Vending machine hire across the UK](https://vendingni.com/uk/vending-machine-hire/)
+- [Coffee vending machines across the UK](https://vendingni.com/uk/coffee-vending-machines/)
 
 ## Qualification and service facts
 
@@ -79,4 +83,4 @@
 
 - [Free vending machine eligibility checker](https://vendingni.com/free-vending-machine-eligibility-checker/) — indicative, permissive site-fit guidance; not an approval.
 - [Vending machine selector](https://vendingni.com/vending-machine-selector/) — indicative setup recommendation subject to site assessment.
-- [Managed vs buy vs rent cost calculator](https://vendingni.com/vending-machine-cost-calculator/) — structural comparison without assumed equipment prices or quotes.
+- [Managed vs buy vs rent cost calculator](https://vendingni.com/vending-machine-cost-calculator/) — structural comparison without assumed equipment prices.
