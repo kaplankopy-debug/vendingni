@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /internal/
 Disallow: /docs/
+Disallow: /disavow/
 Disallow: /blog/?
 Disallow: /wp-admin/
 Disallow: /wp-includes/
@@ -12,15 +13,18 @@ User-agent: OAI-SearchBot
 Allow: /
 Disallow: /internal/
 Disallow: /docs/
+Disallow: /disavow/
 
 User-agent: ChatGPT-User
 Allow: /
 Disallow: /internal/
 Disallow: /docs/
+Disallow: /disavow/
 
 User-agent: GPTBot
 Allow: /
 Disallow: /internal/
 Disallow: /docs/
+Disallow: /disavow/
 
 Sitemap: https://vendingni.com/sitemap.xml
