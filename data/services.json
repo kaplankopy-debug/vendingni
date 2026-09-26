@@ -90,7 +90,9 @@
         "note": "Established installation, risk-assessment, health-and-safety and service processes are available within the wider vending network"
       }
     },
+    "coverage": "across the UK (England, Scotland, Wales and Northern Ireland)",
     "regions": [
+      "United Kingdom",
       "Northern Ireland",
       "Republic of Ireland"
     ],
@@ -135,6 +137,7 @@
     ]
   },
   "geographicPages": [
+    { "name": "United Kingdom", "url": "https://vendingni.com/uk/" },
     { "name": "Northern Ireland", "url": "https://vendingni.com/vending-machines-in-northern-ireland/" },
     { "name": "Belfast", "url": "https://vendingni.com/vending-machines-in-belfast/" },
     { "name": "Republic of Ireland", "url": "https://vendingni.com/vending-machines-ireland/" },
