@@ -216,6 +216,9 @@
     /* Keep SEO hrefs; match sibling text colour (global `a` uses brand green). */
     .benefits-list a { color: inherit; }
     .prose a { color: inherit; }
+    /* Product tiles and mentions: quiet body-colour links, not brand-green buttons. */
+    a.product-link { color: var(--text); font-weight: inherit; }
+    a.product-link:hover { text-decoration: underline; }
     .checkmark { color: var(--primary); font-weight: bold; font-size: 1.2rem; line-height: 1; flex-shrink: 0; margin-top: 2px; }
 
     .onsite-section { padding: 2.5rem 1.25rem; background: var(--light-bg); border-bottom: 1px solid var(--border); content-visibility: auto; contain-intrinsic-size: 700px; }
@@ -351,7 +354,7 @@
           <h1>Get A Free Fully Managed <span>Vending Machine Service</span> For Your Organisation!</h1>
 
           <div>
-          <p>VendingNI supplies and manages vending machines for workplaces and commercial venues across <a href="/vending-machines-in-belfast/">Belfast</a> and Northern Ireland, including snack, cold drink, combination and coffee vending solutions.</p>
+          <p>VendingNI supplies and manages vending machines for workplaces and commercial venues across <a href="/vending-machines-in-belfast/">Belfast</a> and Northern Ireland, including <a class="product-link" href="/snack-vending-machines/">snack vending machines</a>, <a class="product-link" href="/drinks-vending-machines/">drink vending machines</a>, combination machines and <a class="product-link" href="/coffee-vending-machines/">coffee vending machines</a>.</p>
           </div>
 
           <ul class="benefits-list">
@@ -459,10 +462,10 @@
       <h2 id="popular-services-heading" class="section-title" style="text-align: center; font-size: 1.85rem; color: var(--dark); font-weight: 800; margin-bottom: 1.75rem;">Popular Vending Services</h2>
       <div class="grid-2x2">
         <div class="card"><div><h3><a href="https://vendingni.com/how-to-get-a-free-vending-machine/">Free Managed Vending</a></h3><p>See how qualifying organisations can receive a managed machine without purchasing the equipment.</p></div></div>
-        <div class="card"><div><h3><a href="https://vendingni.com/snack-vending-machines/">Snack Vending Machines</a></h3><p>Managed snack vending for offices, factories, gyms and other commercial locations.</p></div></div>
-        <div class="card"><div><h3><a href="https://vendingni.com/drinks-vending-machines/">Drinks Vending Machines</a></h3><p>Chilled drinks vending with product replenishment and ongoing machine support.</p></div></div>
+        <div class="card"><div><h3><a class="product-link" href="https://vendingni.com/snack-vending-machines/">Snack Vending Machines</a></h3><p>Managed snack vending for offices, factories, gyms and other commercial locations.</p></div></div>
+        <div class="card"><div><h3><a class="product-link" href="https://vendingni.com/drinks-vending-machines/">Drink Vending Machines</a></h3><p>Chilled drinks vending with product replenishment and ongoing machine support.</p></div></div>
         <div class="card"><div><h3><a href="https://vendingni.com/combination-vending-machines/">Combination Machines</a></h3><p>Snacks and chilled drinks from one vending unit where space or demand suits a combined setup.</p></div></div>
-        <div class="card"><div><h3><a href="https://vendingni.com/cashless-vending-machines/">Cashless Vending</a></h3><p>Compatible equipment can support debit cards, Apple Pay and Google Pay.</p></div></div>
+        <div class="card"><div><h3><a class="product-link" href="https://vendingni.com/cashless-vending-machines/">Cashless Vending Machines</a></h3><p>Compatible equipment can support debit cards, Apple Pay and Google Pay.</p></div></div>
         <div class="card"><div><h3><a href="https://vendingni.com/vending-machine-repairs/">Servicing & Support</a></h3><p>Routine servicing and machine support for VendingNI managed locations.</p></div></div>
         <div class="card"><div><h3><a href="https://vendingni.com/vending-machine-hire-or-rental/">Hire or Rental</a></h3><p>Comparing hire with a managed machine? See how VendingNI's free-for-qualifying model differs.</p></div></div>
         <div class="card"><div><h3><a href="https://vendingni.com/vending-machine-companies-in-northern-ireland/">Vending Companies in NI</a></h3><p>What to compare when choosing a vending machine company in Northern Ireland.</p></div></div>
@@ -476,13 +479,13 @@
         <p style="margin-bottom:1rem;">VendingNI helps workplaces and commercial venues arrange a Northern Ireland vending machine for qualifying sites. From <a href="/vending-machines-in-belfast/">Belfast</a> to sites elsewhere across the province, we can assess your location, recommend an appropriate machine setup and provide an ongoing managed vending service. If you are comparing a <a href="/vending-machine-companies-in-northern-ireland/">vending machine supplier</a>, <a href="/vending-machine-companies-in-northern-ireland/">vending machine company</a>, hire option or rental arrangement, the important question is not just the machine itself but who will install it, keep it stocked and look after it when something goes wrong.</p>
 
         <h3 style="color:var(--dark);margin:1.5rem 0 0.5rem;">Snack, drink and coffee vending machines</h3>
-        <p style="margin-bottom:1rem;">Different workplaces need different products. Our range can include <a href="/snack-vending-machines/">snack vending machines</a> for crisps, chocolate and other popular snacks, <a href="/drinks-vending-machines/">cold drinks vending machines</a>, <a href="/combination-vending-machines/">combination machines</a> that bring snacks and drinks together, and <a href="/coffee-vending-machines/">coffee vending machines</a> for workplaces that want hot drinks on site. Healthier snack and drink choices can also be included where they suit the people using the machine.</p>
+        <p style="margin-bottom:1rem;">Different workplaces need different products. Our range can include <a href="/snack-vending-machines/">snack vending machines</a> for crisps, chocolate and other popular snacks, <a href="/drinks-vending-machines/">drink vending machines</a> for chilled drinks, <a href="/combination-vending-machines/">combination machines</a> that bring snacks and drinks together, and <a href="/coffee-vending-machines/">coffee vending machines</a> for workplaces that want hot drinks on site. Healthier snack and drink choices can also be included where they suit the people using the machine.</p>
 
         <h3 style="color:var(--dark);margin:1.5rem 0 0.5rem;">Office and workplace vending</h3>
         <p style="margin-bottom:1rem;">For offices, factories, warehouses, gyms, hotels, hospitals and other busy locations, workplace vending gives staff, visitors and customers convenient access to refreshments without running a staffed shop. We supply <a href="/vending-machines-for-an-office/">office and workplace vending machines</a> for offices and other workplaces, while our <a href="/vending-solutions/">managed vending solutions</a> cover a wider range of commercial environments.</p>
 
         <h3 style="color:var(--dark);margin:1.5rem 0 0.5rem;">Supply, installation, stocking, servicing and maintenance</h3>
-        <p style="margin-bottom:1rem;">A fully managed vending service can cover machine supply and installation, regular replenishment, product changes, routine servicing and ongoing maintenance. That means the organisation using the machine does not need to manage stock or arrange day-to-day machine support itself. Suitable equipment can also support cashless and contactless payments. For more detail, see our <a href="/vending-machine-repairs/">vending machine servicing and support</a> information.</p>
+        <p style="margin-bottom:1rem;">A fully managed vending service can cover machine supply and installation, regular replenishment, product changes, routine servicing and ongoing maintenance. That means the organisation using the machine does not need to manage stock or arrange day-to-day machine support itself. Suitable equipment can also support <a href="/cashless-vending-machines/">cashless vending machines</a> and contactless payments. For more detail, see our <a href="/vending-machine-repairs/">vending machine servicing and support</a> information.</p>
 
         <h3 style="color:var(--dark);margin:1.5rem 0 0.5rem;">Vending machine hire, rental or a fully managed machine?</h3>
         <p style="margin-bottom:1rem;">Some organisations search for vending machine hire or rental when what they really need is a managed service. For qualifying locations, VendingNI can provide the machine as part of the service without requiring an equipment purchase. If you are comparing the options, our guide to <a href="/vending-machine-hire-or-rental/">vending machine hire in Northern Ireland</a> explains the difference.</p>
