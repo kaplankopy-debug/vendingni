@@ -28,6 +28,7 @@
     "home": "https://vendingni.com/",
     "machines": "https://vendingni.com/machines/",
     "vendingSolutions": "https://vendingni.com/vending-solutions/",
+    "uk": "https://vendingni.com/uk/",
     "northernIreland": "https://vendingni.com/vending-machines-in-northern-ireland/",
     "republicOfIreland": "https://vendingni.com/vending-machines-ireland/",
     "freeManagedVending": "https://vendingni.com/how-to-get-a-free-vending-machine/",
@@ -48,7 +49,9 @@
     "apartmentBuildings": "https://vendingni.com/vending-machine-for-apartment-building/",
     "airports": "https://vendingni.com/airport-vending-machine/"
   },
+  "coverage": "across the UK (England, Scotland, Wales and Northern Ireland), with Northern Ireland as the home region and service coverage in the Republic of Ireland",
   "geographicPages": {
+    "uk": "https://vendingni.com/uk/",
     "northernIreland": "https://vendingni.com/vending-machines-in-northern-ireland/",
     "belfast": "https://vendingni.com/vending-machines-in-belfast/",
     "republicOfIreland": "https://vendingni.com/vending-machines-ireland/",

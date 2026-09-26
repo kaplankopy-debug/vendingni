@@ -82,6 +82,12 @@ footer.global-footer{background:#28303d!important;color:#fff!important;padding:3
 footer.global-footer h2{color:#fff!important;font-size:clamp(1.55rem,3vw,2.2rem)!important;line-height:1.2!important;margin:0 0 .85rem!important}
 footer.global-footer .global-footer-intro{margin:.85rem auto 1.5rem!important;color:#94a3b8!important;font-size:.95rem!important;max-width:720px!important}
 footer.global-footer .btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;background:#3ad06e!important;color:#fff!important;font-weight:800!important;padding:.85rem 1.75rem!important;border-radius:8px!important;min-height:48px!important;text-decoration:none!important}
+.global-footer-locations{margin:1.75rem auto 0!important;max-width:280px!important;text-align:left!important}
+.global-footer-locations h3{color:#fff!important;font-size:1rem!important;margin:0 0 .65rem!important}
+.global-footer-locations ul{list-style:none!important;display:grid!important;gap:.45rem!important;margin:0!important;padding:0!important}
+.global-footer-locations a{color:#cbd5e1!important;font-weight:600!important;font-size:.9rem!important;text-decoration:none!important}
+.global-footer-locations a:hover,.global-footer-locations a:focus{color:#fff!important;text-decoration:underline!important}
+footer.global-footer .global-footer-tagline{margin:1.35rem auto 0!important;color:#94a3b8!important;font-size:.95rem!important;max-width:720px!important}
 .global-footer-links{display:flex!important;justify-content:center!important;align-items:center!important;gap:1rem 1.5rem!important;flex-wrap:wrap!important;margin:1.75rem auto!important;max-width:900px!important}
 footer.global-footer .global-footer-links a{color:#cbd5e1!important;text-decoration:none!important;font-size:.9rem!important;font-weight:600!important}
 footer.global-footer .global-footer-links a:hover{text-decoration:underline!important}
