@@ -48,11 +48,19 @@ header,.header,.header-container{position:relative}
 .client-logo-item img{max-height:83px!important;opacity:1!important}
 .client-logo-item img.nifa-logo{max-height:129px!important}
 .client-logo-item img.titanic-logo{max-height:104px!important}
+/* width:auto plus max-height collapses these logos to 0x0 until the file loads. */
+.client-logo-item{min-height:83px}
+.client-logo-item:has(.nifa-logo){min-height:129px}
+.client-logo-item:has(.titanic-logo){min-height:104px}
 @media(max-width:768px){
 .client-logo-item img{max-height:55px!important}
 .client-logo-item img.nifa-logo{max-height:86px!important}
 .client-logo-item img.titanic-logo{max-height:69px!important}
+.client-logo-item{min-height:55px}
+.client-logo-item:has(.nifa-logo){min-height:86px}
+.client-logo-item:has(.titanic-logo){min-height:69px}
 }
+picture{display:contents}
 
 /* Keep popular product-brand logos balanced and tidy. */
 .brands-section .brand-grid{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr));gap:1.35rem!important;align-items:center;justify-items:center;max-width:1050px!important}
