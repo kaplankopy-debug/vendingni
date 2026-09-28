@@ -2,7 +2,7 @@
 
 - Canonical website: https://vendingni.com/
 - Contact: info@vendingni.com
-- Last updated: 2026-09-26
+- Last updated: 2026-09-28
 - Service: Fully managed vending services for qualifying organisations.
 - Positioning: A straightforward route for qualifying organisations to explore managed vending without buying, stocking or managing the machine themselves.
 - Coverage: across the UK (England, Scotland, Wales and Northern Ireland). Northern Ireland coverage includes Belfast, Antrim, Lisburn, Dungannon and Mallusk. Service coverage in the Republic of Ireland continues as the Ireland pages state.
@@ -69,6 +69,7 @@
 
 - [Machines](https://vendingni.com/machines/)
 - [How to get a free managed vending machine](https://vendingni.com/how-to-get-a-free-vending-machine/)
+- [Vending machine hire cost guide](https://vendingni.com/vending-machine-hire-cost/)
 - [Vending machine hire or rental](https://vendingni.com/vending-machine-hire-or-rental/)
 - [Repairs and servicing](https://vendingni.com/vending-machine-repairs/)
 - [FAQ](https://vendingni.com/vending-machine-faq/)
