@@ -2,7 +2,7 @@
 
 - Canonical website: https://vendingni.com/
 - Contact: info@vendingni.com
-- Last updated: 2026-09-28
+- Last updated: 2026-10-03
 - Service: Fully managed vending services for qualifying organisations.
 - Positioning: A straightforward route for qualifying organisations to explore managed vending without buying, stocking or managing the machine themselves.
 - Coverage: across the UK (England, Scotland, Wales and Northern Ireland). Northern Ireland coverage includes Belfast, Antrim, Lisburn, Dungannon and Mallusk. Service coverage in the Republic of Ireland continues as the Ireland pages state.
@@ -11,12 +11,12 @@
 
 ## Strongest factual pages
 
-- [Fully managed vending service](https://vendingni.com/vending-solutions/)
+- [Fully managed vending](https://vendingni.com/vending-solutions/)
 - [Qualification guidance](https://vendingni.com/how-to-get-a-free-vending-machine/)
 - [Machine selection and comparison](https://vendingni.com/machines/)
 - [Operational and buyer FAQs](https://vendingni.com/vending-machine-faq/)
 - [Managed vending experience across workplaces and venues](https://vendingni.com/vending-network-experience/)
-- [UK-wide fully managed vending](https://vendingni.com/uk/)
+- [Vending machine UK](https://vendingni.com/uk/)
 - [Vending machine hire across the UK](https://vendingni.com/uk/vending-machine-hire/)
 - [Coffee vending machines across the UK](https://vendingni.com/uk/coffee-vending-machines/)
 
@@ -56,7 +56,7 @@
 
 ## Geographic pages
 
-- [UK-wide fully managed vending](https://vendingni.com/uk/)
+- [Vending machine UK](https://vendingni.com/uk/)
 - [Vending machine hire across the UK](https://vendingni.com/uk/vending-machine-hire/)
 - [Coffee vending machines across the UK](https://vendingni.com/uk/coffee-vending-machines/)
 - [Office coffee machines across the UK](https://vendingni.com/uk/office-coffee-machines/)
@@ -79,6 +79,33 @@
 - [Machine-readable site manifest](https://vendingni.com/data/site.json)
 - [Sitemap](https://vendingni.com/sitemap.xml)
 - [Robots](https://vendingni.com/robots.txt)
+
+## Commercial term owners
+
+Each commercial term already in Rank Tracker and on the sitemap has one owning URL. Close variants share that URL. Another page may link to the owner. It does not repeat the owner's title or H1.
+
+- Vending machines Northern Ireland, vending machine Northern Ireland, vending services Northern Ireland: [Northern Ireland machines](https://vendingni.com/vending-machines-in-northern-ireland/)
+- Coffee vending machines Northern Ireland, coffee machines Northern Ireland: [coffee vending machines](https://vendingni.com/coffee-vending-machines/)
+- Drink vending machines Northern Ireland: [drinks vending](https://vendingni.com/drinks-vending-machines/)
+- Snack vending machines Northern Ireland: [snack vending](https://vendingni.com/snack-vending-machines/)
+- Cashless vending machines Northern Ireland: [cashless vending](https://vendingni.com/cashless-vending-machines/)
+- Office vending machines and workplace vending machines, in Northern Ireland and the UK: [office vending](https://vendingni.com/vending-machines-for-an-office/)
+- Vending machine hire, rental, machines for hire and leasing in Northern Ireland: [Northern Ireland hire](https://vendingni.com/vending-machine-hire-or-rental/)
+- Vending machines Belfast, vending machine rental Belfast, vending machine suppliers Belfast: [Belfast](https://vendingni.com/vending-machines-in-belfast/)
+- Vending machine suppliers Northern Ireland, vending company Northern Ireland, vending supplier Northern Ireland: [companies in Northern Ireland](https://vendingni.com/vending-machine-companies-in-northern-ireland/)
+- Gym vending machine: [gyms](https://vendingni.com/vending-machine-for-gym/)
+- Vending machines in schools: [schools](https://vendingni.com/school-vending-machine/)
+- Vending machine UK, vending machine companies, vending machine suppliers: [UK](https://vendingni.com/uk/)
+- Fully managed vending: [fully managed vending](https://vendingni.com/vending-solutions/)
+- Coffee vending machine, hot drinks machine: [UK coffee vending](https://vendingni.com/uk/coffee-vending-machines/)
+- Office coffee machines, coffee machines for offices, coffee machine for business, coffee machine rental, coffee machine lease: [office coffee](https://vendingni.com/uk/office-coffee-machines/)
+- Vending machine hire and vending machine rental in the UK: [UK hire](https://vendingni.com/uk/vending-machine-hire/)
+- Vending machine hire cost, how much to rent a vending machine in the UK: [hire cost guide](https://vendingni.com/vending-machine-hire-cost/)
+- Free vending machine: [how to get a free vending machine](https://vendingni.com/how-to-get-a-free-vending-machine/)
+- Healthy vending machines: [machines](https://vendingni.com/machines/). There is no separate healthy range and no health certification.
+- Factory, hotel, hospital, care home, apartment, airport and coworking each keep the venue page linked from the solutions hub.
+
+Fresh-food vending is not a published service. It has no page and no owner. Do not add a town page, a doorway page, a price or a specification to cover a term.
 
 ## Interactive vending tools
 
