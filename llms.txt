@@ -2,7 +2,7 @@
 
 - Canonical website: https://vendingni.com/
 - Contact: info@vendingni.com
-- Last updated: 2026-10-03
+- Last updated: 2026-10-05
 - Service: Fully managed vending services for qualifying organisations.
 - Positioning: A straightforward route for qualifying organisations to explore managed vending without buying, stocking or managing the machine themselves.
 - Coverage: across the UK (England, Scotland, Wales and Northern Ireland). Northern Ireland coverage includes Belfast, Antrim, Lisburn, Dungannon and Mallusk. Service coverage in the Republic of Ireland continues as the Ireland pages state.
@@ -59,6 +59,9 @@
 - [Vending machine hire across the UK](https://vendingni.com/uk/vending-machine-hire/)
 - [Coffee vending machines across the UK](https://vendingni.com/uk/coffee-vending-machines/)
 - [Office coffee machines across the UK](https://vendingni.com/uk/office-coffee-machines/)
+- [Snack vending machines for UK workplaces](https://vendingni.com/uk/snack-vending-machines/)
+- [Drinks vending machines for UK workplaces](https://vendingni.com/uk/drinks-vending-machines/)
+- [Cashless vending machines for UK workplaces](https://vendingni.com/uk/cashless-vending-machines/)
 - [Northern Ireland](https://vendingni.com/vending-machines-in-northern-ireland/)
 - [Belfast](https://vendingni.com/vending-machines-in-belfast/)
 - [Republic of Ireland](https://vendingni.com/vending-machines-ireland/)
@@ -87,7 +90,10 @@ Each commercial term already in Rank Tracker and on the sitemap has one owning U
 - Coffee vending machines Northern Ireland, coffee machines Northern Ireland: [coffee vending machines](https://vendingni.com/coffee-vending-machines/)
 - Drink vending machines Northern Ireland: [drinks vending](https://vendingni.com/drinks-vending-machines/)
 - Snack vending machines Northern Ireland: [snack vending](https://vendingni.com/snack-vending-machines/)
+- Snack vending machines for UK workplaces: [UK snack vending](https://vendingni.com/uk/snack-vending-machines/)
 - Cashless vending machines Northern Ireland: [cashless vending](https://vendingni.com/cashless-vending-machines/)
+- Cashless vending machines for UK workplaces: [UK cashless vending](https://vendingni.com/uk/cashless-vending-machines/)
+- Drinks vending machines and drink vending machines for UK workplaces: [UK drinks vending](https://vendingni.com/uk/drinks-vending-machines/)
 - Office vending machines and workplace vending machines, in Northern Ireland and the UK: [office vending](https://vendingni.com/vending-machines-for-an-office/)
 - Vending machine hire, rental, machines for hire and leasing in Northern Ireland: [Northern Ireland hire](https://vendingni.com/vending-machine-hire-or-rental/)
 - Vending machines Belfast, vending machine rental Belfast, vending machine suppliers Belfast: [Belfast](https://vendingni.com/vending-machines-in-belfast/)
