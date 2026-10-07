@@ -2,7 +2,7 @@
 
 - Canonical website: https://vendingni.com/
 - Contact: info@vendingni.com
-- Last updated: 2026-10-05
+- Last updated: 2026-10-07
 - Service: Fully managed vending services for qualifying organisations.
 - Positioning: A straightforward route for qualifying organisations to explore managed vending without buying, stocking or managing the machine themselves.
 - Coverage: across the UK (England, Scotland, Wales and Northern Ireland). Northern Ireland coverage includes Belfast, Antrim, Lisburn, Dungannon and Mallusk. Service coverage in the Republic of Ireland continues as the Ireland pages state.
@@ -62,6 +62,7 @@
 - [Snack vending machines for UK workplaces](https://vendingni.com/uk/snack-vending-machines/)
 - [Drinks vending machines for UK workplaces](https://vendingni.com/uk/drinks-vending-machines/)
 - [Cashless vending machines for UK workplaces](https://vendingni.com/uk/cashless-vending-machines/)
+- [Healthy vending machines for UK workplaces](https://vendingni.com/uk/healthy-vending-machines/)
 - [Northern Ireland](https://vendingni.com/vending-machines-in-northern-ireland/)
 - [Belfast](https://vendingni.com/vending-machines-in-belfast/)
 - [Republic of Ireland](https://vendingni.com/vending-machines-ireland/)
@@ -72,6 +73,7 @@
 - [Machines](https://vendingni.com/machines/)
 - [How to get a free managed vending machine](https://vendingni.com/how-to-get-a-free-vending-machine/)
 - [Vending machine hire cost guide](https://vendingni.com/vending-machine-hire-cost/)
+- [Choosing a healthy workplace vending mix](https://vendingni.com/choosing-a-healthy-workplace-vending-mix/)
 - [Vending machine hire or rental](https://vendingni.com/vending-machine-hire-or-rental/)
 - [Repairs and servicing](https://vendingni.com/vending-machine-repairs/)
 - [FAQ](https://vendingni.com/vending-machine-faq/)
@@ -107,7 +109,7 @@ Each commercial term already in Rank Tracker and on the sitemap has one owning U
 - Vending machine hire and vending machine rental in the UK: [UK hire](https://vendingni.com/uk/vending-machine-hire/)
 - Vending machine hire cost, how much to rent a vending machine in the UK: [hire cost guide](https://vendingni.com/vending-machine-hire-cost/)
 - Free vending machine: [how to get a free vending machine](https://vendingni.com/how-to-get-a-free-vending-machine/)
-- Healthy vending machines: [machines](https://vendingni.com/machines/). A dedicated healthy vending range is available.
+- Healthy vending machines, healthy vending machine, healthy vending: [healthy vending machines](https://vendingni.com/uk/healthy-vending-machines/). A dedicated healthy vending range is available. The range is agreed with the site.
 - Factory, hotel, hospital, care home, apartment, airport and coworking each keep the venue page linked from the solutions hub.
 
 Fresh-food vending is not a published service. It has no page and no owner. Do not add a town page, a doorway page, a price or a specification to cover a term.
