@@ -74,6 +74,7 @@
 - [How to get a free managed vending machine](https://vendingni.com/how-to-get-a-free-vending-machine/)
 - [Vending machine hire cost guide](https://vendingni.com/vending-machine-hire-cost/)
 - [Choosing a healthy workplace vending mix](https://vendingni.com/choosing-a-healthy-workplace-vending-mix/)
+- [How to choose an office coffee machine](https://vendingni.com/how-to-choose-an-office-coffee-machine/)
 - [Vending machine hire or rental](https://vendingni.com/vending-machine-hire-or-rental/)
 - [Repairs and servicing](https://vendingni.com/vending-machine-repairs/)
 - [FAQ](https://vendingni.com/vending-machine-faq/)
@@ -88,7 +89,8 @@
 
 Each commercial term already in Rank Tracker and on the sitemap has one owning URL. Close variants share that URL. Another page may link to the owner. It does not repeat the owner's title or H1.
 
-- Vending machines Northern Ireland, vending machine Northern Ireland, vending services Northern Ireland: [Northern Ireland machines](https://vendingni.com/vending-machines-in-northern-ireland/)
+- Vending machines Northern Ireland, vending machine Northern Ireland: [homepage](https://vendingni.com/)
+- Vending services Northern Ireland: [Northern Ireland machines](https://vendingni.com/vending-machines-in-northern-ireland/)
 - Coffee vending machines Northern Ireland, coffee machines Northern Ireland: [coffee vending machines](https://vendingni.com/coffee-vending-machines/)
 - Drink vending machines Northern Ireland: [drinks vending](https://vendingni.com/drinks-vending-machines/)
 - Snack vending machines Northern Ireland: [snack vending](https://vendingni.com/snack-vending-machines/)
