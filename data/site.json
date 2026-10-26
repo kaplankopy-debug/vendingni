@@ -10,12 +10,12 @@
     "sitemap": "https://vendingni.com/sitemap.xml",
     "robots": "https://vendingni.com/robots.txt",
     "llms": "https://vendingni.com/llms.txt",
-    "services": "https://vendingni.com/data/services.json"
-    ,"qualification": "https://vendingni.com/how-to-get-a-free-vending-machine/"
-    ,"machines": "https://vendingni.com/machines/"
-    ,"vendingSolutions": "https://vendingni.com/vending-solutions/"
-    ,"faq": "https://vendingni.com/vending-machine-faq/"
-    ,"networkExperience": "https://vendingni.com/vending-network-experience/"
+    "services": "https://vendingni.com/data/services.json",
+    "qualification": "https://vendingni.com/how-to-get-a-free-vending-machine/",
+    "machines": "https://vendingni.com/machines/",
+    "vendingSolutions": "https://vendingni.com/vending-solutions/",
+    "faq": "https://vendingni.com/vending-machine-faq/",
+    "networkExperience": "https://vendingni.com/vending-network-experience/"
   },
   "contentCategories": [
     "vending machines",
@@ -34,8 +34,9 @@
     "freeManagedVending": "https://vendingni.com/how-to-get-a-free-vending-machine/",
     "faq": "https://vendingni.com/vending-machine-faq/",
     "about": "https://vendingni.com/about/",
-    "contact": "https://vendingni.com/contact/"
-    ,"networkExperience": "https://vendingni.com/vending-network-experience/"
+    "contact": "https://vendingni.com/contact/",
+    "networkExperience": "https://vendingni.com/vending-network-experience/",
+    "smallBusinesses": "https://vendingni.com/vending-machines-for-small-businesses/"
   },
   "sectorPages": {
     "offices": "https://vendingni.com/vending-machines-for-an-office/",
@@ -61,8 +62,7 @@
     "eligibilityChecker": "https://vendingni.com/free-vending-machine-eligibility-checker/",
     "machineSelector": "https://vendingni.com/vending-machine-selector/",
     "costComparisonCalculator": "https://vendingni.com/vending-machine-cost-calculator/"
-  }
-,
+  },
   "termOwners": {
     "vending machines northern ireland": "https://vendingni.com/",
     "vending machine northern ireland": "https://vendingni.com/",
@@ -111,7 +111,9 @@
     "free vending machine": "https://vendingni.com/how-to-get-a-free-vending-machine/",
     "healthy vending machines": "https://vendingni.com/uk/healthy-vending-machines/",
     "healthy vending machine": "https://vendingni.com/uk/healthy-vending-machines/",
-    "healthy vending": "https://vendingni.com/uk/healthy-vending-machines/"
+    "healthy vending": "https://vendingni.com/uk/healthy-vending-machines/",
+    "vending machine for small business": "https://vendingni.com/vending-machines-for-small-businesses/",
+    "vending machines for small offices": "https://vendingni.com/vending-machines-for-small-businesses/"
   },
   "unpublishedTerms": {
     "fresh food vending machines northern ireland": "Not a published VendingNI service. No page."
