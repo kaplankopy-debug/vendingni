@@ -2,7 +2,7 @@
 
 - Canonical website: https://vendingni.com/
 - Contact: info@vendingni.com
-- Last updated: 2026-10-26
+- Last updated: 2026-10-28
 - Service: Fully managed vending services for qualifying organisations.
 - Positioning: A straightforward route for qualifying organisations to explore managed vending without buying, stocking or managing the machine themselves.
 - Coverage: across the UK (England, Scotland, Wales and Northern Ireland). Northern Ireland coverage includes Belfast, Antrim, Lisburn, Dungannon and Mallusk. Service coverage in the Republic of Ireland continues as the Ireland pages state.
@@ -76,6 +76,7 @@
 - [Choosing a healthy workplace vending mix](https://vendingni.com/choosing-a-healthy-workplace-vending-mix/)
 - [How to choose an office coffee machine](https://vendingni.com/how-to-choose-an-office-coffee-machine/)
 - [Vending machines for small businesses and small offices](https://vendingni.com/vending-machines-for-small-businesses/)
+- [What your workplace needs to host a vending machine](https://vendingni.com/what-you-need-to-host-a-vending-machine/)
 - [Vending machines in schools: UK rules and healthy options](https://vendingni.com/vending-machines-in-schools-uk-rules/)
 - [Vending machine hire or rental](https://vendingni.com/vending-machine-hire-or-rental/)
 - [Repairs and servicing](https://vendingni.com/vending-machine-repairs/)
@@ -114,6 +115,7 @@ Each commercial term already in Rank Tracker and on the sitemap has one owning U
 - Vending machine hire cost, how much to rent a vending machine in the UK: [hire cost guide](https://vendingni.com/vending-machine-hire-cost/)
 - Free vending machine: [how to get a free vending machine](https://vendingni.com/how-to-get-a-free-vending-machine/)
 - Vending machine for small business, vending machines for small offices: [small businesses and small offices](https://vendingni.com/vending-machines-for-small-businesses/)
+- What do you need to host a vending machine, does a vending machine need to be plugged in, who pays for vending machine electricity: [what your workplace needs to host a vending machine](https://vendingni.com/what-you-need-to-host-a-vending-machine/)
 - Healthy vending machines, healthy vending machine, healthy vending: [healthy vending machines](https://vendingni.com/uk/healthy-vending-machines/). A dedicated healthy vending range is available. The range is agreed with the site.
 - Factory, hotel, hospital, care home, apartment, airport and coworking each keep the venue page linked from the solutions hub.
 
