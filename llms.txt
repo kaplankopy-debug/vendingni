@@ -2,7 +2,7 @@
 
 - Canonical website: https://vendingni.com/
 - Contact: info@vendingni.com
-- Last updated: 2026-10-28
+- Last updated: 2026-11-02
 - Service: Fully managed vending services for qualifying organisations.
 - Positioning: A straightforward route for qualifying organisations to explore managed vending without buying, stocking or managing the machine themselves.
 - Coverage: across the UK (England, Scotland, Wales and Northern Ireland). Northern Ireland coverage includes Belfast, Antrim, Lisburn, Dungannon and Mallusk. Service coverage in the Republic of Ireland continues as the Ireland pages state.
@@ -75,6 +75,7 @@
 - [Vending machine hire cost guide](https://vendingni.com/vending-machine-hire-cost/)
 - [Choosing a healthy workplace vending mix](https://vendingni.com/choosing-a-healthy-workplace-vending-mix/)
 - [How to choose an office coffee machine](https://vendingni.com/how-to-choose-an-office-coffee-machine/)
+- [How a coffee vending machine works](https://vendingni.com/how-a-coffee-vending-machine-works/)
 - [Vending machines for small businesses and small offices](https://vendingni.com/vending-machines-for-small-businesses/)
 - [What your workplace needs to host a vending machine](https://vendingni.com/what-you-need-to-host-a-vending-machine/)
 - [Vending machines in schools: UK rules and healthy options](https://vendingni.com/vending-machines-in-schools-uk-rules/)
@@ -110,6 +111,7 @@ Each commercial term already in Rank Tracker and on the sitemap has one owning U
 - Vending machine UK, vending machine companies, vending machine suppliers: [UK](https://vendingni.com/uk/). Vending machine rental in Belfast belongs on the Belfast page, not this one.
 - Fully managed vending: [fully managed vending](https://vendingni.com/vending-solutions/)
 - Coffee vending machine, hot drinks machine: [UK coffee vending](https://vendingni.com/uk/coffee-vending-machines/)
+- How does a coffee vending machine work, how to use a coffee vending machine: [guide](https://vendingni.com/how-a-coffee-vending-machine-works/)
 - Office coffee machines, coffee machines for offices, coffee machine for business, coffee machine rental, coffee machine lease: [office coffee](https://vendingni.com/uk/office-coffee-machines/)
 - Vending machine hire and vending machine rental in the UK: [UK hire](https://vendingni.com/uk/vending-machine-hire/)
 - Vending machine hire cost, how much to rent a vending machine in the UK: [hire cost guide](https://vendingni.com/vending-machine-hire-cost/)
