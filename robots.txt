@@ -21,7 +21,37 @@ Disallow: /internal/
 Disallow: /docs/
 Disallow: /disavow/
 
-User-agent: GPTBot
+User-agent: PerplexityBot
+Allow: /
+Disallow: /internal/
+Disallow: /docs/
+Disallow: /disavow/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /internal/
+Disallow: /docs/
+Disallow: /disavow/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /internal/
+Disallow: /docs/
+Disallow: /disavow/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /internal/
+Disallow: /docs/
+Disallow: /disavow/
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /internal/
+Disallow: /docs/
+Disallow: /disavow/
+
+User-agent: MistralAI-User
 Allow: /
 Disallow: /internal/
 Disallow: /docs/
