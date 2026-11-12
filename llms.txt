@@ -94,7 +94,7 @@
 
 Each commercial term already in Rank Tracker and on the sitemap has one owning URL. Close variants share that URL. Another page may link to the owner. It does not repeat the owner's title or H1.
 
-- Vending machines Northern Ireland, vending machine Northern Ireland: [homepage](https://vendingni.com/)
+- Vending machines Northern Ireland, vending machine Northern Ireland: [Northern Ireland machines](https://vendingni.com/vending-machines-in-northern-ireland/)
 - Vending services Northern Ireland: [Northern Ireland machines](https://vendingni.com/vending-machines-in-northern-ireland/)
 - Coffee vending machines Northern Ireland, coffee machines Northern Ireland: [coffee vending machines](https://vendingni.com/coffee-vending-machines/)
 - Drink vending machines Northern Ireland: [drinks vending](https://vendingni.com/drinks-vending-machines/)
